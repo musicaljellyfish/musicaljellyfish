@@ -1,0 +1,414 @@
+#pragma once
+#pragma once
+#include <iostream>
+#include <stdio.h>
+#include <iostream>
+#include<vector>
+#include<string>
+#include<windows.h>
+int startX;
+int startY;
+int endX;
+int endY;
+int timecost;
+int testX;//分析的方块的X轴
+int testY;//分析的方块的Y轴
+int over=0;
+vector<int>openlistX;
+vector<int>openlistY;
+vector<int>closelistX;
+vector<int>closelistY;
+int choiceX;
+int choiceY;
+int temp = 0;
+void 分析周围方块() 
+{
+	//左上检查*******************************************************************
+	if (testX  < 0 || testX  > 11 || testY  < 0 || testY  > 11 || blocksum[testX-1][testY - 1].closelist == 1 || map[testX-1][testY - 1] == '#')
+	{
+		blocksum[testX + 1][testY + 1].F = 10000;
+		goto 左上已完成;
+	}
+	while (map[testX - 1][testY - 1] != '#')
+	{
+		if (map[testX - 1][testY - 1] == '&')
+		{
+			over =1;
+		};
+		//输入到openlist
+		//计算F，H，G
+		//计算H
+		blocksum[testX - 1][testY - 1].H = 曼哈顿距离(testX - 1, endX, testY - 1, endY);
+		blocksum[testX - 1][testY - 1].G = 曼哈顿G距离(testX - 1, startX, testY - 1, startY);
+		blocksum[testX - 1][testY - 1].F = blocksum[testX - 1][testY - 1].H + blocksum[testX - 1][testY - 1].G;
+		blocksum[testX - 1][testY - 1].parentX = &blocksum[testX][testY];
+		blocksum[testX - 1][testY - 1].parentY = &blocksum[testX][testY];
+		break;
+	}
+左上已完成:
+	//左边检查*****************************************************************************
+	if (testX  < 0 || testX  > 11 || testY < 0 || testY > 11 || blocksum[testX-1][testY].closelist == 1 || map[testX-1][testY ] == '#')
+	{
+		blocksum[testX + 1][testY + 1].F = 10000;
+		goto 左边已完成;
+	}
+	while (map[testX - 1][testY] != '#')
+	{
+		if (map[testX - 1][testY ] == '&')
+		{
+			over = 1;
+		};
+		//输入到openlist
+		//计算F，H，G
+		//计算H
+		blocksum[testX - 1][testY].H = 曼哈顿距离(testX - 1, endX, testY, endY);
+		blocksum[testX - 1][testY].G = 曼哈顿G距离(testX - 1, startX, testY, startY);
+		blocksum[testX - 1][testY].F = blocksum[testX - 1][testY].H + blocksum[testX - 1][testY].G;
+		blocksum[testX - 1][testY].parentX = &blocksum[testX][testY];
+		blocksum[testX - 1][testY].parentY = &blocksum[testX][testY];
+		break;
+	}
+左边已完成:
+	//右边检查********************************************************************************
+	if (testX  < 0 || testX  > 11 || testY  < 0 || testY  > 11 || blocksum[testX+1][testY].closelist == 1 || map[testX+1][testY] == '#')
+	{
+		blocksum[testX + 1][testY + 1].F = 10000;
+		goto 右边已完成;
+	}
+	while (map[testX + 1][testY] != '#')
+	{
+		if (map[testX + 1][testY] == '&')
+		{
+			over = 1;
+		};
+		//输入到openlist
+		//计算F，H，G
+		//计算H
+		blocksum[testX + 1][testY].H = 曼哈顿距离(testX + 1, endX, testY, endY);
+		blocksum[testX + 1][testY].G = 曼哈顿G距离(testX + 1, startX, testY, startY);
+		blocksum[testX + 1][testY].F = blocksum[testX + 1][testY].H + blocksum[testX + 1][testY].G;
+		blocksum[testX + 1][testY].parentX = &blocksum[testX][testY];
+		blocksum[testX + 1][testY].parentY = &blocksum[testX][testY];
+		break;
+	}
+右边已完成:
+	//上边检查*********************************************************************************
+	if (testX  < 0 || testX  > 11 || testY  < 0 || testY  > 11 ||blocksum[testX][testY - 1].closelist == 1||map[testX][testY - 1]=='#')
+	{
+		blocksum[testX + 1][testY + 1].F = 10000;
+		goto 上边已完成;
+	}
+	while (map[testX][testY - 1] != '#')
+	{
+		if (map[testX][testY - 1] == '&')
+		{
+			over = 1;
+		};
+		//输入到openlist
+		//计算F，H，G
+		//计算H
+		blocksum[testX][testY - 1].H = 曼哈顿距离(testX, endX, testY - 1, endY);
+		blocksum[testX][testY - 1].G = 曼哈顿G距离(testX, startX, testY - 1, startY);
+		blocksum[testX][testY - 1].F = blocksum[testX][testY - 1].H + blocksum[testX][testY - 1].G;
+		blocksum[testX][testY - 1].parentX = &blocksum[testX][testY];
+		blocksum[testX][testY - 1].parentY = &blocksum[testX][testY];
+		break;
+	}
+上边已完成:
+	//下边检查*****************************************************************************
+	if (testX  < 0 || testX  > 11 || testY  < 0 || testY  > 11|| blocksum[testX][testY + 1].closelist==1 || map[testX][testY + 1] == '#')
+	{
+		blocksum[testX + 1][testY + 1].F = 10000;
+		goto 下边已完成;
+	}
+	while (map[testX][testY + 1] != '#')
+	{
+		if (map[testX][testY + 1] == '&')
+		{
+			over = 1;
+		};
+		//输入到openlist
+		//计算F，H，G
+		//计算H
+		blocksum[testX][testY + 1].H = 曼哈顿距离(testX, endX, testY + 1, endY);
+		blocksum[testX][testY + 1].G = 曼哈顿G距离(testX, startX, testY + 1, startY);
+		blocksum[testX][testY + 1].F = blocksum[testX][testY + 1].H + blocksum[testX][testY + 1].G;
+		blocksum[testX][testY + 1].parentX = &blocksum[testX][testY];
+		blocksum[testX][testY + 1].parentY = &blocksum[testX][testY];
+		break;
+	}
+下边已完成:
+	//右上检查*****************************************************************************
+	if (testX  < 0 || testX > 11 || testY < 0 || testY > 11 || blocksum[testX+1][testY - 1].closelist == 1 || map[testX+1][testY - 1] == '#')
+	{
+		blocksum[testX + 1][testY + 1].F = 10000;
+		goto 右上已完成;
+	}
+	while (map[testX+1][testY - 1] != '#')
+	{
+		if (map[testX + 1][testY - 1] == '&')
+		{
+			over = 1;
+		};
+		//输入到openlist
+		//计算F，H，G
+		//计算H
+		blocksum[testX+1][testY - 1].H = 曼哈顿距离(testX+1, endX, testY - 1, endY);
+		blocksum[testX+1][testY - 1].G = 曼哈顿G距离(testX + 1, startX, testY - 1, startY);
+		blocksum[testX+1][testY - 1].F = blocksum[testX+1][testY - 1].H + blocksum[testX+1][testY - 1].G;
+		blocksum[testX+1][testY - 1].parentX = &blocksum[testX][testY];
+		blocksum[testX+1][testY - 1].parentY = &blocksum[testX][testY];
+		break;
+	}
+右上已完成:
+	//左下检查*************************************************************************
+	if (testX  < 0 || testX  > 11 || testY  < 0 || testY  > 11 || blocksum[testX-1][testY + 1].closelist == 1 || map[testX-1][testY + 1] == '#')
+	{
+		blocksum[testX + 1][testY + 1].F = 10000;
+		goto 左下已完成;
+	}
+	while (map[testX - 1][testY + 1] != '#')
+	{
+		if (map[testX - 1][testY + 1] == '&')
+		{
+			over = 1;
+		};
+		//输入到openlist
+		//计算F，H，G
+		//计算H
+		blocksum[testX - 1][testY + 1].H = 曼哈顿距离(testX - 1, endX, testY + 1, endY);
+		blocksum[testX - 1][testY + 1].G = 曼哈顿G距离(testX - 1, startX, testY + 1, startY);
+		blocksum[testX - 1][testY + 1].F = blocksum[testX - 1][testY + 1].H + blocksum[testX - 1][testY + 1].G;
+		blocksum[testX - 1][testY + 1].parentX = &blocksum[testX][testY];
+		blocksum[testX - 1][testY + 1].parentY = &blocksum[testX][testY];
+		break;
+	}
+左下已完成:
+	//右下检查*************************************************************************
+	if (testX < 0 || testX  > 11 || testY  < 0 || testY  > 11 ||blocksum[testX+1][testY+1].closelist == 1 || map[testX+1][testY + 1] == '#')
+	{
+		blocksum[testX + 1][testY + 1].F = 10000;
+		goto 右下已完成;
+	}
+	while (map[testX + 1][testY + 1] != '#')
+	{
+		if (map[testX + 1][testY + 1] == '&')
+		{
+			over = 1;
+		};
+		//输入到openlist
+		//计算F，H，G
+		//计算H
+		blocksum[testX + 1][testY + 1].H = 曼哈顿距离(testX + 1, endX, testY + 1, endY);
+		blocksum[testX + 1][testY + 1].G = 曼哈顿G距离(testX + 1, startX, testY + 1, startY);
+		blocksum[testX + 1][testY + 1].F = blocksum[testX + 1][testY + 1].H + blocksum[testX + 1][testY + 1].G;
+		blocksum[testX + 1][testY + 1].parentX = &blocksum[testX][testY];
+		blocksum[testX + 1][testY + 1].parentY = &blocksum[testX][testY];
+		break;
+	}
+	
+右下已完成:
+	int g;
+};
+//查找周围F值******************************************************************************************************
+void F值大小() 
+{
+	//步骤1.选择可用的初始点
+	//上边
+	if (testY>=0&&blocksum[testX][testY - 1].closelist != 1 && map[testX ][testY - 1] != '#')
+	{
+		temp = blocksum[testX][testY - 1].F;
+		choiceX = testX;
+		choiceY = testY - 1;
+		goto 选择点以完成;
+	};
+	//右上
+	if (testX + 1 < 11 && testY >= 0 && blocksum[testX+1][testY - 1].closelist != 1 && map[testX+1][testY - 1] != '#')
+	{
+		temp = blocksum[testX+1][testY - 1].F;
+		choiceX = testX+1;
+		choiceY = testY - 1;
+		goto 选择点以完成;
+	};
+	//右边
+	if (testX + 1 < 11 && blocksum[testX+1][testY].closelist != 1 && map[testX+1][testY] != '#')
+	{
+		temp = blocksum[testX+1][testY].F;
+		choiceX = testX+1;
+		choiceY = testY ;
+		goto 选择点以完成;
+	};
+	//右下
+	if (testX + 1 < 11 && testY + 1 < 11 && blocksum[testX+1][testY + 1].closelist != 1 && map[testX+1][testY + 1] != '#')
+	{
+		temp = blocksum[testX+1][testY + 1].F;
+		choiceX = testX+1;
+		choiceY = testY + 1;
+		goto 选择点以完成;
+	};
+	//下边
+	if (testY + 1 < 11 && blocksum[testX][testY + 1].closelist != 1 && map[testX][testY+ 1] != '#')
+	{
+		temp = blocksum[testX][testY + 1].F;
+		choiceX = testX;
+		choiceY = testY + 1;
+		goto 选择点以完成;
+	};
+	//左下
+	if (testX >= 0 && testY + 1 < 11 && blocksum[testX-1][testY + 1].closelist != 1 && map[testX-1][testY + 1] != '#')
+	{
+		temp = blocksum[testX-1][testY + 1].F;
+		choiceX = testX-1;
+		choiceY = testY + 1;
+		goto 选择点以完成;
+	};
+	//左边
+	if (testX >= 0 && blocksum[testX-1][testY].closelist != 1 && map[testX-1][testY ] != '#')
+	{
+		temp = blocksum[testX-1][testY].F;
+		choiceX = testX-1;
+		choiceY = testY ;
+		goto 选择点以完成;
+	};
+	//左上
+	if (testX >= 0 && testY - 1 >= 0 && blocksum[testX-1][testY - 1].closelist != 1 && map[testX-1][testY - 1] != '#')
+	{
+		temp = blocksum[testX-1][testY - 1].F;
+		choiceX = testX-1;
+		choiceY = testY - 1;
+		goto 选择点以完成;
+	};
+	选择点以完成:
+	//步骤2.以初始点开始查找F值大小关系
+	//右上
+	if (testX+1<11&&testY>=0&&blocksum[testX + 1][testY - 1].closelist != 1&& map[testX + 1][testY - 1]!='#')
+	{
+		if (temp > blocksum[testX + 1][testY - 1].F)
+		{
+			temp = blocksum[testX + 1][testY - 1].F;
+			choiceX = testX + 1;
+			choiceY = testY - 1;
+		};
+	};
+	//右边
+	if (testX+1<11&&blocksum[testX + 1][testY ].closelist != 1 && map[testX + 1][testY ] != '#')
+	{
+		if (temp > blocksum[testX + 1][testY].F)
+		{
+			temp = blocksum[testX + 1][testY].F;
+			choiceX = testX + 1;
+			choiceY = testY;
+		};
+	};
+	//右下
+	if (testX + 1 < 11 && testY+1<11&&blocksum[testX + 1][testY + 1].closelist != 1 && map[testX + 1][testY + 1] != '#')
+	{
+		if (temp > blocksum[testX + 1][testY + 1].F)
+		{
+			temp = blocksum[testX + 1][testY + 1].F;
+			choiceX = testX + 1;
+			choiceY = testY + 1;
+		};
+	};
+	//下边
+	if (testY+1<11&&blocksum[testX ][testY + 1].closelist != 1 && map[testX ][testY + 1] != '#')
+	{
+		if (temp > blocksum[testX][testY + 1].F)
+		{
+			temp = blocksum[testX][testY + 1].F;
+			choiceX = testX;
+			choiceY = testY + 1;
+		};
+	};
+	//左下
+	if (testX>=0&&testY+1<11&&blocksum[testX - 1][testY + 1].closelist != 1 && map[testX - 1][testY + 1] != '#')
+	{
+		if (temp > blocksum[testX - 1][testY + 1].F)
+		{
+			temp = blocksum[testX - 1][testY + 1].F;
+			choiceX = testX - 1;
+			choiceY = testY + 1;
+		};
+	};
+	//左边
+	if (testX >= 0 && blocksum[testX - 1][testY ].closelist != 1 && map[testX - 1][testY ] != '#')
+	{
+		if (temp > blocksum[testX - 1][testY].F)
+		{
+			temp = blocksum[testX - 1][testY].F;
+			choiceX = testX - 1;
+			choiceY = testY;
+		};
+	};
+	//左上
+	if (testX >= 0 && testY-1>=0&&blocksum[testX - 1][testY - 1].closelist != 1 && map[testX - 1][testY - 1] != '#')
+	{
+		if (temp > blocksum[testX - 1][testY - 1].F)
+		{
+			temp = blocksum[testX - 1][testY - 1].F;
+			choiceX = testX - 1;
+			choiceY = testY - 1;
+		};
+	};
+}
+//寻路开始*******************************************************************************************************
+void 寻路()
+{
+	int lm = 0;
+
+	printf("即将开始寻路");
+	Sleep(1000);
+	//查找起点的位置
+	for (int m = 0; m < 10; m++)
+	{
+		for (int n = 0; n < 10; n++)
+		{
+			if (blocksum[m][n].start == 10)
+			{
+				startX = m;
+				testX = m;
+				testY = n;
+				startY = n;
+				blocksum[testX][testY].closelist = 1;
+				lm++;
+				goto END1;
+		
+			}
+		};
+		lm = lm;
+	};
+END1:
+	//查找终点的位置
+	for (int m = 0; m < 10; m++)  
+	{
+		for (int n = 0; n < 10; n++)
+		{
+			if (blocksum[m][n].end == 1)
+			{
+				endX = m;
+				endY = n;
+				break;
+			}
+		};
+		if (blocksum[endX][endY].end == 1)
+		{
+			break;
+		};
+	};
+	//查看指定方块的性质和填入openlist
+    over = 0;
+	while (over != 1)
+	{
+		分析周围方块();
+		//从上方开始顺时针查找F值大小
+		F值大小();
+		testX = choiceX;
+		testY = choiceY;
+		blocksum[testX][testY].closelist = 1;
+		map[testX][testY] = '%';
+	};
+	cout << "已完成搜索" << endl;
+	map[endX][endY] = '&';
+	地图显示();
+	system("pause");
+}

@@ -1,0 +1,63 @@
+#include<iostream>
+#include<string>
+#include<conio.h>
+#include"windows.h"
+#include"函数库.h"
+#include<fstream>
+#include<stdlib.h>
+#include<vector>
+using namespace std;
+int main() {
+START:
+	//初始化
+	X.clear();
+	Y.clear();
+	X.push_back(10);
+	X.push_back(11);
+	X.push_back(12);
+	Y.push_back(10);
+	Y.push_back(10);
+	Y.push_back(10);
+	fruit = 0;
+	dead = false;
+	speed = 100;
+	//初始化地图数据
+	int j;
+	for (int X轴 = 1; X轴 < 22; X轴++) {
+		for (int Y轴 = 1; Y轴 < 22; Y轴++) {
+			map[X轴][Y轴] = { " " };
+		}
+		for (int m = 0; m < 45; m++) 
+		{
+			map[0][m] = "#";
+		};
+		for (int m = 0; m < 45; m++)
+		{
+			map[m][0] = "#";
+		};
+		for (int n = 0; n < 45; n++)
+		{
+			map[23][n] = "#";
+		};
+		for (int n = 0; n < 45; n++)
+		{
+			map[n][23] = "#";
+		};
+	};
+
+
+
+
+	//游戏本体
+	游戏本体();
+	cout << "game over" << endl;
+	printf("按r重新游玩");
+	cin >> result;
+	if (result == 'r' || result == 'R')
+	{
+		goto START;
+	}
+	system("pause");
+	
+};
+

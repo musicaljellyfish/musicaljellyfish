@@ -1,0 +1,294 @@
+#pragma once
+#include<iostream>
+#include<vector>
+#include"windows.h",
+#include"time.h";
+using namespace std;
+//通过结构体存储迷宫信息
+const int SIZE_ = 22;
+char block = 21;
+int 次数 = 0;
+bool have;
+//
+struct MAZE
+{
+	//是否是墙壁
+	bool is_wall = 1;
+	//是否是边界
+	bool is_boundary = 0;
+	//
+	bool is_list = 0;
+};
+//创建一个21*21的迷宫
+struct MAZE MAZE_SUM[SIZE_][SIZE_];
+//创建存储容器
+vector<int>block_X;
+vector<int>block_Y;
+//迷宫初始化
+void 迷宫初始化()
+{
+	//定义所有X=1,X=40,Y=1,Y=40的方格为边界
+	for (int temp = 1; temp < SIZE_; temp++)
+	{
+		MAZE_SUM[1][temp].is_boundary = 1;
+		MAZE_SUM[temp][1].is_boundary = 1;
+		MAZE_SUM[SIZE_ - 1][temp].is_boundary = 1;
+		MAZE_SUM[SIZE_ - 1][temp].is_boundary = 1;
+	}
+}
+//打印迷宫
+void 打印迷宫()
+{
+	for (int temp1 = 1; temp1 < SIZE_; temp1++)
+	{
+		for (int temp2 = 1; temp2 < SIZE_; temp2++)
+		{
+			if (MAZE_SUM[temp1][temp2].is_wall == 1)
+			{
+				printf("%c ", block);
+			}
+			else
+			{
+				printf("  ");
+			}
+		}
+		printf("%c ", block);
+		printf("\n");
+	}
+}
+/*
+随机prim算法的核心是：
+1.建立两个数组，一个是用于存储地图的二维数组α，另一个是用于存储待处理的墙的数组β。
+
+2.将α的所有方格全部初始化为墙。
+
+3.选定起点，并将该位置的墙变为路，将其四周的四块置入β数组中（出界的直接筛掉，就不说了）。
+
+4.当β数组不为空时，循环以下步骤
+
+1）从β数组中随机选择一块，暂且叫他A。
+
+2）遍历该方块四周，并选定其中的某一块为路的方块，暂且叫他B。
+
+3）判断相对于A，在B的对侧的方块C是否为墙（假如B在A左侧，就判定A右边的方块；B在A上方，就判定A下方的方块；以此类推……），若为墙，则：
+
+①将A、C均置为路。
+
+②将C周围是墙的所有方块，均置入待β数组中。
+
+4）将A从β数组中去掉。
+
+
+*/
+void 随机普利姆算法()
+{
+	//方向为1表示向上，方向为2表示向下，方向为3表示向左，方向为4表示向右
+	int direction = 1;
+	srand(time(0));
+	int tempX = 10;
+	int tempY = 10;
+	MAZE_SUM[tempX][tempY].is_wall = 0;
+	MAZE_SUM[tempX][tempY].is_list = 1;
+	//预添加列表
+	if (tempX - 1 > 0 && tempY > 0)
+	{
+		block_X.push_back(tempX - 1);
+		block_Y.push_back(tempY);
+	}
+	if (tempX > 0 && tempY - 1 > 0)
+	{
+		block_X.push_back(tempX);
+		block_Y.push_back(tempY - 1);
+	}
+	if (tempX + 1 < SIZE_ - 1 && tempY > 0)
+	{
+		block_X.push_back(tempX + 1);
+		block_Y.push_back(tempY);
+	}
+	if (tempX > 0 && tempY + 1 < SIZE_ - 1)
+	{
+		block_X.push_back(tempX);
+		block_Y.push_back(tempY + 1);
+	}
+	//循环执行
+	while (block_X.size() > 0 && block_Y.size() > 0)
+	{
+		if (次数 > 700 && block_X.size() == 19)
+		{
+			return;
+		}
+		void 打印迷宫();
+
+		direction = rand() % 100 + 1;
+		if (direction < 25)
+		{
+			direction = 1;
+		}
+		if (direction > 25 && direction < 50)
+		{
+			direction = 2;
+		}
+		if (direction >= 50 && direction < 75)
+		{
+			direction = 3;
+		}
+		if (direction >= 75 && direction <= 100)
+		{
+			direction = 4;
+		}
+		打印迷宫();
+
+		printf("size:%d ", block_X.size());
+		printf("time:%d ", 次数);
+		printf("direction:%d", direction);
+		system("cls");
+
+		次数++;
+		int random_list = rand() % block_X.size() + 0;
+		tempX = block_X.at(random_list);
+		tempY = block_Y.at(random_list);
+		printf("\n%d %d\n", tempX, tempY);
+		switch (direction)
+		{
+		case 1:
+			goto case1;
+		case 2:
+			goto case2;
+		case 3:
+			goto case3;
+		case 4:
+			goto case4;
+		default:
+			break;
+		}
+		//遍历周围的方格，找到为通路的方格
+		//遍历1
+	case1:
+		if (MAZE_SUM[tempX - 1][tempY].is_wall == 0 && MAZE_SUM[tempX + 1][tempY].is_boundary == 0)
+		{
+			if (MAZE_SUM[tempX + 1][tempY].is_wall == 1)
+			{
+				MAZE_SUM[tempX + 1][tempY].is_wall = 0;
+				MAZE_SUM[tempX][tempY].is_wall = 0;
+				//将和选择方格对面的方格C相邻的墙放入列表中
+				if (MAZE_SUM[tempX + 2][tempY].is_wall == 1 && MAZE_SUM[tempX + 2][tempY].is_boundary == 0)
+				{
+					block_X.push_back(tempX + 2);
+					block_Y.push_back(tempY);
+				}
+				if (MAZE_SUM[tempX + 1][tempY + 1].is_wall == 1 && MAZE_SUM[tempX + 1][tempY + 1].is_boundary == 0)
+				{
+					block_X.push_back(tempX + 1);
+					block_Y.push_back(tempY + 1);
+				}
+				if (MAZE_SUM[tempX + 1][tempY - 1].is_wall == 1 && MAZE_SUM[tempX + 1][tempY - 1].is_boundary == 0)
+				{
+					block_X.push_back(tempX + 1);
+					block_Y.push_back(tempY - 1);
+				}
+
+
+			}
+			block_X.erase(block_X.begin() + random_list);
+			block_Y.erase(block_Y.begin() + random_list);
+			goto END;
+		}
+		//遍历2
+	case2:
+		if (MAZE_SUM[tempX + 1][tempY].is_wall == 0 && MAZE_SUM[tempX - 1][tempY].is_boundary == 0)
+		{
+			if (MAZE_SUM[tempX - 1][tempY].is_wall == 1)
+			{
+				MAZE_SUM[tempX - 1][tempY].is_wall = 0;
+				MAZE_SUM[tempX][tempY].is_wall = 0;
+				//将和选择方格对面的方格C相邻的墙放入列表中
+				if (MAZE_SUM[tempX - 2][tempY].is_wall == 1 && MAZE_SUM[tempX - 2][tempY].is_boundary == 0)
+				{
+					block_X.push_back(tempX - 2);
+					block_Y.push_back(tempY);
+				}
+				if (MAZE_SUM[tempX - 1][tempY + 1].is_wall == 1 && MAZE_SUM[tempX - 1][tempY + 1].is_boundary == 0)
+				{
+					block_X.push_back(tempX - 1);
+					block_Y.push_back(tempY + 1);
+				}
+				if (MAZE_SUM[tempX - 1][tempY - 1].is_wall == 1 && MAZE_SUM[tempX - 1][tempY - 1].is_boundary == 0)
+				{
+					block_X.push_back(tempX - 1);
+					block_Y.push_back(tempY - 1);
+				}
+
+
+			}
+			block_X.erase(block_X.begin() + random_list);
+			block_Y.erase(block_Y.begin() + random_list);
+			goto END;
+		}
+		//遍历3
+	case3:
+		if (MAZE_SUM[tempX][tempY + 1].is_wall == 0 && MAZE_SUM[tempX][tempY - 1].is_boundary == 0)
+		{
+			if (MAZE_SUM[tempX][tempY - 1].is_wall == 1)
+			{
+				MAZE_SUM[tempX][tempY - 1].is_wall = 0;
+				MAZE_SUM[tempX][tempY].is_wall = 0;
+				//将和选择方格对面的方格C相邻的墙放入列表中
+				if (MAZE_SUM[tempX][tempY - 2].is_wall == 1 && MAZE_SUM[tempX][tempY - 2].is_boundary == 0)
+				{
+					block_X.push_back(tempX);
+					block_Y.push_back(tempY - 2);
+				}
+				if (MAZE_SUM[tempX + 1][tempY - 1].is_wall == 1 && MAZE_SUM[tempX + 1][tempY - 1].is_boundary == 0)
+				{
+					block_X.push_back(tempX + 1);
+					block_Y.push_back(tempY - 1);
+				}
+				if (MAZE_SUM[tempX - 1][tempY - 1].is_wall == 1 && MAZE_SUM[tempX - 1][tempY - 1].is_boundary == 0)
+				{
+					block_X.push_back(tempX - 1);
+					block_Y.push_back(tempY - 1);
+				}
+
+
+			}
+			block_X.erase(block_X.begin() + random_list);
+			block_Y.erase(block_Y.begin() + random_list);
+
+			goto END;
+		}
+		//遍历4
+	case4:
+		if (MAZE_SUM[tempX][tempY - 1].is_wall == 0 && MAZE_SUM[tempX][tempY + 1].is_boundary == 0)
+		{
+			if (MAZE_SUM[tempX][tempY + 1].is_wall == 1)
+			{
+				MAZE_SUM[tempX][tempY + 1].is_wall = 0;
+				MAZE_SUM[tempX][tempY].is_wall = 0;
+				//将和选择方格对面的方格C相邻的墙放入列表中
+				if (MAZE_SUM[tempX][tempY + 2].is_wall == 1 && MAZE_SUM[tempX][tempY + 2].is_boundary == 0)
+				{
+					block_X.push_back(tempX);
+					block_Y.push_back(tempY + 2);
+				}
+				if (MAZE_SUM[tempX + 1][tempY + 1].is_wall == 1 && MAZE_SUM[tempX + 1][tempY + 1].is_boundary == 0)
+				{
+					block_X.push_back(tempX + 1);
+					block_Y.push_back(tempY + 1);
+				}
+				if (MAZE_SUM[tempX - 1][tempY + 1].is_wall == 1 && MAZE_SUM[tempX - 1][tempY + 1].is_boundary == 0)
+				{
+					block_X.push_back(tempX - 1);
+					block_Y.push_back(tempY + 1);
+				}
+
+
+			}
+			block_X.erase(block_X.begin() + random_list);
+			block_Y.erase(block_Y.begin() + random_list);
+			goto END;
+		}
+	END:
+		have = 1;
+	}
+
+}

@@ -1,0 +1,16 @@
+#include<iostream>
+#include<vector>
+#include"windows.h",
+#include"time.h";
+#include"迷宫预生成算法.h"
+using namespace std;
+int main()
+{
+	//迷宫预生成
+	迷宫初始化();
+	随机普利姆算法();
+	打印迷宫();
+	system("pause");
+	int c;
+	cin >> c;
+}

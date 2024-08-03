@@ -1,0 +1,233 @@
+#pragma once
+#include <iostream>
+#include <stdio.h>
+#include <iostream>
+#include<vector>
+#include<string>
+#include<windows.h>
+using namespace std;
+char map[10][10];
+class block
+{
+public:
+	int X;
+	int Y;
+	int F;
+	int H;
+	int G;
+	int openlist ;
+	int closelist ;
+	int start = 3;
+	int end = 0;
+	class block *parentX;
+	class block *parentY; 
+};
+int 曼哈顿距离(int x1, int x2, int y1, int y2)
+{
+	int H = 10*abs(x1 - x2) + 10*abs(y1 - y2);
+	return H;
+};
+int 曼哈顿G距离(int x1, int x2, int y1, int y2)
+{
+	int temp1;
+	int temp2;
+	int G1;
+	if (abs(x1 - x2) > abs(y1 - y2))
+	{
+		temp1 = abs(y1 - y2);
+		temp2 = abs(x1 - x2) - abs(y1 - y2);
+	}
+	else if (abs(x1 - x2) < abs(y1 - y2))
+	{
+		temp1 = abs(x1 - x2);
+		temp2 = abs(y1 - y2) - abs(x1 - x2);
+	}
+	else 
+	{ 
+		temp1 = abs(x1 - x2);
+		temp2 = 0;
+	};
+	G1 = temp1 * 14 + temp2 * 10;
+	return G1;
+};
+//定义class成员二维数组
+class block blocksum[10][10];
+//临时数组的存储
+//地图的构建************************************************************************************************
+void 地图构建() {
+	//地图初始化
+	for (int m = 0; m < 10; m++)
+	{
+		for (int n = 0; n < 10; n++)
+		{
+			map[m][n] = '*';
+			blocksum[m][n].X = m;
+			blocksum[m][n].Y = n;
+			blocksum[m][n].start = 3;
+		}
+	};
+};
+//地图显示********************************************************************************************************
+void 地图显示()
+{
+	for (int m = 0; m < 10; m++)
+	{
+		for (int n = 0; n < 10; n++)
+		{
+			cout << map[n][m];
+		};
+		cout << endl;
+	};
+
+};
+//地图编辑器***************************************************************************************************
+int mapchange()
+{
+	int x = 0;
+	int y = 0;
+	int happy = 0;
+	int start = 0;
+	int end = 0;
+START:
+	cout << "1.创建起点 2.创建终点 3.添加障碍物" << endl;
+	cin >> happy;
+	if (happy == 1)
+	{
+		if (start >= 1)
+		{
+			cout << "已有起点,正在重新选择" << endl;
+			Sleep(2000);
+			system("cls");
+			goto START;
+		}
+		cout << "输入添加起点的X坐标" << endl;
+		cin >> x;
+		cout << "输入添加起点的Y坐标" << endl;
+		cin >> y;
+		//错误输入
+		if (x >= 10 || x < 1 || y >= 10 || y < 1)
+		{
+			cout << "无效输入" << endl;
+			system("pause");
+			goto START;
+		};
+		map[x ][y] = '@';
+		blocksum[x ][y ].X = x ;
+		blocksum[x ][y ].Y = y ;
+		blocksum[x ][y ].start = 10;
+		start++;
+		cout << "成功编辑" << endl;
+		地图显示();
+		cout << "按e结束编辑，按c继续编辑" << endl;
+		char choice;
+		cin >> choice;
+		system("cls");
+		if (choice == 'c' || choice=='C')
+		{
+			goto START;
+		}
+		else if (choice == 'e' || choice=='E')
+		{
+			goto END;
+			cout << "test" << endl;
+		}
+		else
+		{
+			cout << "错误输入，已自动结束" << endl;
+			goto START;
+		};
+	}
+	else if (happy == 2)
+	{
+		if (end >= 1)
+		{
+			cout << "已有终点,正在重新选择" << endl;
+			Sleep(2000);
+			system("cls");
+			goto START;
+		};
+		cout << "输入添加终点的X坐标" << endl;
+		cin >> x;
+		cout << "输入添加终点的Y坐标" << endl;
+		cin >> y;
+		//错误输入
+		if (x >= 10 || x < 1 || y >= 10 || y < 1)
+		{
+			cout << "无效输入" << endl;
+			system("pause");
+			goto START;
+		}
+		map[x ][y ] = '&';
+		blocksum[x ][y ].X = x ;
+		blocksum[x ][y ].Y = y ;
+		blocksum[x ][y ].end = 1;
+		end++;
+		cout << "成功编辑" << endl;
+		地图显示();
+		cout << "按e结束编辑，按c继续编辑" << endl;
+		char choice;
+		cin >> choice;
+		system("cls");
+		if (choice == 'c' || choice=='C')
+		{
+			goto START;
+		}
+		else if (choice == 'e' || choice=='E')
+		{
+			goto END;
+			cout << "test" << endl;
+		}
+		else
+		{
+			cout << "错误输入，已自动结束" << endl;
+			goto START;
+		};
+	}
+	else if (happy == 3)
+	{
+		cout << "输入添加障碍物的X坐标" << endl;
+		cin >> x;
+		cout << "输入添加障碍物的Y坐标" << endl;
+		cin >> y;
+		map[x ][y ] = '#';
+		//错误输入
+		if (x >= 10 || x < 1 || y >= 10 || y < 1)
+		{
+			cout << "无效输入" << endl;
+			system("pause");
+			goto START;
+		}
+		else
+		{
+			cout << "成功编辑" << endl;
+			地图显示();
+			cout << "按e结束编辑，按c继续编辑" << endl;
+			char choice;
+			cin >> choice;
+			system("cls");
+			if (choice == 'c' || choice=='C')
+			{
+				goto START;
+			}
+			else if (choice == 'e' || choice=='E')
+			{
+				goto END;
+				cout << "test" << endl;
+			}
+			else
+			{
+				cout << "错误输入，已自动结束" << endl;
+				goto START;
+			};
+		};
+	}
+	else
+	{
+		cout << "error" << endl;
+		Sleep(2000);
+		system("cls");
+		goto START;
+	}
+	END:
+	return 10;
+};

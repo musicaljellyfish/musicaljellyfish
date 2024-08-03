@@ -1,0 +1,13 @@
+#include <iostream>
+#include<vector>
+#include<string>
+#include<windows.h>
+#include"test1.h"
+#include"寻路.h"
+using namespace std;
+int main()
+{
+	地图构建();
+	mapchange();
+	寻路();
+}
