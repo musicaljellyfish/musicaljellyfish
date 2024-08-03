@@ -1,0 +1,731 @@
+{
+  "entries": [
+    {
+      "id": "Isaac_the_Fool",
+      "buffs": [
+        "Isaac_0_1",
+        "Isaac_0_5"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Fool_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "kill_performer_additional_effects": [
+        "Isaac_0_kill"
+      ]
+    },
+    {
+      "id": "Isaac_the_Magician",
+      "buffs": [
+        "ACC15"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Magician_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Isaac_1_attack"
+      ],
+      "friendly_skill_additional_effects": [
+        "Isaac_1_friendly"
+      ]
+    },
+    {
+      "id": "Isaac_the_High_Priestess",
+      "buffs": [
+        "SCOUTING20"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "High_Priestess_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Isaac_2_target_1",
+        "Isaac_2_performer"
+      ],
+      "friendly_skill_additional_effects": [
+        "Isaac_2_target_2",
+        "Isaac_2_performer"
+      ]
+    },
+    {
+      "id": "Isaac_the_Empress",
+      "buffs": [
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Empress_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "was_hit_additional_effects": [
+        "Isaac_3_hited_1"
+      ],
+      "attack_skill_additional_effects": [
+        "Isaac_3_heal_4",
+        "Isaac_3_heal_3"
+      ],
+      "friendly_skill_additional_effects": [
+        "Isaac_3_heal_1",
+        "Isaac_3_heal_2"
+      ]
+    },
+    {
+      "id": "Isaac_the_Emperor",
+      "buffs": [
+        "Isaac_4_1",
+        "Isaac_4_2",
+        "Isaac_4_3",
+        "Isaac_4_4",
+        "Isaac_4_5",
+        "Isaac_4_6"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Emperor_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "Isaac_the_Hierophant",
+      "buffs": [
+        "TRINKET_RESOLVECHECK_B4"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Hierophant_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "friendly_skill_additional_effects": [
+        "Isaac_5_heal_1"
+      ]
+    },
+    {
+      "id": "Isaac_the_Lovers",
+      "buffs": [
+        "Isaac_6_1",
+        "Isaac_6_4",
+        "Isaac_6_5",
+        "Isaac_6_6"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Lovers_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "was_hit_additional_effects": [
+        "Isaac_6_groupother_1"
+      ]
+    },
+    {
+      "id": "Isaac_the_Chariot",
+      "buffs": [
+        "Isaac_7_2"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Chariot_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Isaac_7_target_2",
+        "Isaac_7_performer_4",
+        "Isaac_7_performer_1",
+        "Isaac_7_performer_6"
+      ]
+    },
+    {
+      "id": "Isaac_the_Justice",
+      "buffs": [
+        "Isaac_8_1",
+        "Isaac_8_2",
+        "Isaac_8_3",
+        "Isaac_8_4",
+        "Isaac_8_5",
+        "Isaac_8_6",
+        "Isaac_8_7",
+        "Isaac_8_8",
+        "Isaac_8_9",
+        "Isaac_8_10",
+        "Isaac_8_11",
+        "Isaac_8_12"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Justice_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Isaac_8_heal_1",
+        "Isaac_8_target_2"
+      ],
+      "friendly_skill_additional_effects": [
+        "Isaac_8_heal_1",
+        "Isaac_8_target_3"
+      ],
+      "kill_performer_additional_effects": [
+        "Justice_Summon1"
+      ]
+    },
+    {
+      "id": "Isaac_the_Hermit",
+      "buffs": [
+        "Hermit_Trinket_Tooltip",
+        "Isaac_9_1",
+        "Isaac_9_2",
+        "Isaac_9_3",
+        "Isaac_9_4"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Hermit_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "friendly_skill_additional_effects": [
+        "Isaac_9_performer_1"
+      ]
+    },
+    {
+      "id": "Isaac_the_Wheel_of_Fortune",
+      "buffs": [
+
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Wheel_of_Fortune_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Isaac_10_performer_1",
+        "Isaac_10_performer_2",
+        "Isaac_10_performer_3",
+        "Isaac_10_performer_4"
+      ],
+      "friendly_skill_additional_effects": [
+      ]
+    },
+    {
+      "id": "Isaac_the_Strength",
+      "buffs": [
+        "Isaac_11_1",
+        "Isaac_11_2",
+        "Isaac_11_3",
+        "Isaac_11_5",
+        "Isaac_11_6",
+        "Isaac_11_7",
+        "Isaac_11_8",
+        "Isaac_11_9",
+        "Isaac_11_10",
+        "Isaac_11_11"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Strength_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+
+      ],
+      "friendly_skill_additional_effects": [
+      ]
+    },
+    {
+      "id": "Isaac_the_Hanged_Man",
+      "buffs": [
+        "Isaac_12_1",
+        "Isaac_12_2"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Hanged_Man_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "was_killed_all_heroes_additional_effects": [
+        "Isaac_12_performer_1",
+        "Isaac_12_performer_2"
+      ]
+    },
+    {
+      "id": "Isaac_the_Death",
+      "buffs": [
+        "Isaac_13_1",
+        "Isaac_13_2",
+        "Isaac_13_3",
+        "Isaac_13_4"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Death_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "was_killed_all_heroes_additional_effects": [
+      ]
+    },
+    {
+      "id": "Isaac_the_Temperance",
+      "buffs": [
+
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Temperance_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Isaac_14_performer_1",
+        "Isaac_14_performer_2",
+        "Isaac_14_performer_3"
+      ],
+      "friendly_skill_additional_effects": [
+        "Isaac_14_performer_4"
+      ]
+    },
+    {
+      "id": "Isaac_the_Devil",
+      "buffs": [
+        "Isaac_15_1",
+        "Isaac_15_2",
+        "Devil_Trinket_Tooltip"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Devil_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "kill_performer_additional_effects": [
+        "Isaac_15_performer_1"
+      ],
+      "attack_crit_additional_effects": [
+        "Isaac_15_power"
+      ]
+    },
+    {
+      "id": "Isaac_the_Tower",
+      "buffs": [
+        "Isaac_16_1",
+        "Isaac_16_2"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Tower_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Isaac_16_performer_2",
+        "Isaac_16_performer_3"
+      ],
+      "attack_crit_additional_effects": [
+        "Isaac_16_performer_1"
+      ]
+    },
+    {
+      "id": "Isaac_the_Stars",
+      "buffs": [
+        "Isaac_17_1",
+        "Isaac_17_2",
+        "Stars_Trinket_Tooltip"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Stars_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "kill_all_heroes_additional_effects": [
+        "Isaac_17_performer_1"
+      ],
+      "attack_skill_additional_effects": [
+        "Isaac_17_performer_2"
+      ]
+    },
+    {
+      "id": "Isaac_the_Moon",
+      "buffs": [
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Moon_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Isaac_18_performer_1",
+        "Isaac_18_target_2",
+        "Isaac_18_target_3",
+        "Isaac_18_target_4",
+        "Isaac_18_target_5",
+        "Isaac_18_target_6"
+      ]
+    },
+    {
+      "id": "Isaac_the_Sun",
+      "buffs": [
+        "Isaac_19_1"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Sun_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "kill_performer_additional_effects": [
+        "Isaac_19_performer_1",
+        "Isaac_19_performer_2"
+      ]
+    },
+    {
+      "id": "Isaac_the_Judgement",
+      "buffs": [
+        "Isaac_20_1",
+        "Isaac_20_2",
+        "Isaac_20_3",
+        "Isaac_20_4"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Judgement_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "kill_performer_additional_effects": [
+      ]
+    },
+    {
+      "id": "Isaac_the_World",
+      "buffs": [
+        "Isaac_21_1",
+        "Isaac_21_2",
+        "Isaac_21_3",
+        "Isaac_21_4",
+        "Isaac_21_5"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "World_Introduce",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "kill_performer_additional_effects": [
+      ]
+    },
+    {
+      "id": "Isaac_the_Holy_Card",
+      "buffs": [
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Isaac",
+      "set_id": "Holy_Card_Introduce",
+      "price": 20000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Isaac_holy_performer_1"
+      ],
+      "friendly_skill_additional_effects": [
+        "Isaac_holy_performer_1"
+      ]
+    },
+    {
+      "id": "Isaac_Missing_Poster",
+      "buffs": [
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "comet",
+      "shard": 1,
+      "set_id": "Missing_Poster_Introduce",
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Isaac_Lost_Change"
+      ],
+      "friendly_skill_additional_effects": [
+      ]
+    },
+    {
+      "id": "Friend_Isaac",
+      "buffs": [
+        "ignore_stealth"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "Friend_Cain",
+      "buffs": [
+        "CAIN_BUFF"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "Friend_Judas",
+      "buffs": [
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "SHIFT_BLEED",
+        "SHIFT_POISON"
+      ]
+    },
+    {
+      "id": "Friend_Magdalene",
+      "buffs": [
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "CLEAR_DEBUFF"
+      ],
+      "friendly_skill_additional_effects": [
+        "CLEAR_DEBUFF"
+      ]
+    },
+    {
+      "id": "Friend_Azazel",
+      "buffs": [
+        "AZAZEL_BUFF"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "Friend_Eve",
+      "buffs": [
+        "BLEEDRESIST20"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "CLEAR_BLEED"
+      ],
+      "friendly_skill_additional_effects": [
+        "CLEAR_BLEED"
+      ]
+    },
+    {
+      "id": "Friend_Samson",
+      "buffs": [
+        "TRINKET_BLIGHTRESIST_B1"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "CLEAR_POISON"
+      ],
+      "friendly_skill_additional_effects": [
+        "CLEAR_POISON"
+      ]
+    },
+    {
+      "id": "Friend_Lost",
+      "buffs": [
+        "LOST_BUFF"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "Friend_Lazarus",
+      "buffs": [
+        "LAZARUS_BUFF"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "Friend_Eden",
+      "buffs": [
+        "EDEN_BUFF"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "Friend_Lilith",
+      "buffs": [
+        "LILITH_BUFF"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "Friend_Keeper",
+      "buffs": [
+        "KEEPER_BUFF"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "Friend_Apollyon",
+      "buffs": [
+        "APOLLYON_BUFF"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "Friend_Forgotten",
+      "buffs": [
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Forgotten_Pull"
+      ],
+      "friendly_skill_additional_effects": [
+        "Forgotten_Pull"
+      ]
+    },
+    {
+      "id": "Friend_Bethany",
+      "buffs": [
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Bethany_Push"
+      ],
+      "friendly_skill_additional_effects": [
+        "Bethany_Push"
+      ]
+    },
+    {
+      "id": "Friend_Jacob_Esau",
+      "buffs": [
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "Friend",
+      "set_id": "Friend_Until_End",
+      "price": 1000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Jacob_Esau_Turn"
+      ],
+      "friendly_skill_additional_effects": [
+        "Jacob_Esau_Turn"
+      ]
+    }
+  ]
+}

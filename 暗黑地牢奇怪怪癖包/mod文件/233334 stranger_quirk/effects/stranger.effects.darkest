@@ -1,0 +1,16 @@
+
+effect: .name "DD2_BOSS_1_DEBUFF_1" .target "performer"  .chance 100%  .buff_ids "DD2_BOSS_1_DEBUFF_11"  .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "DD2_BOSS_1_DEBUFF_2" .target "performer"  .chance 100%  .buff_ids "DD2_BOSS_1_DEBUFF_22"  .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "DD2_BOSS_1_DEBUFF_3" .target "performer"  .chance 100%  .buff_ids "DD2_BOSS_1_DEBUFF_33"  .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "DD2_BOSS_1_DEBUFF_4" .target "performer"  .chance 100%  .buff_ids "DD2_BOSS_1_DEBUFF_44"  .on_hit true .on_miss false .apply_once true .queue true
+
+//补给修改
+effect: .name "bandage" .target "performer" .item 1 .chance 100% .cure_bleed 1.heal 1 .buff_ids "BANDAGE_HEAL_MORE"
+
+effect: .name "antivenom" .target "performer" .item 1 .chance 100% .cure_poison 1.heal 1 .buff_ids "ANTIVENOM_HEAL_MORE"
+
+effect: .name "laudanum" .target "performer" .item 1 .chance 100% .clearDotStress 1.healstress 4.buff_ids "LAUDANUM_HEAL_MORE"
+

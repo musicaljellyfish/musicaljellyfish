@@ -1,0 +1,19 @@
+{
+   "quirk_act_outs":
+   [
+     	  {
+         "quirk_id" : "DD2_BOSS_1",
+         "combat_start_turn_act_outs":
+         [
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 36},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "DD2_BOSS_1_DEBUFF_1" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "DD2_BOSS_1_DEBUFF_2" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "DD2_BOSS_1_DEBUFF_3" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "DD2_BOSS_1_DEBUFF_4" }, "chance": 1}
+         ],
+         "reaction_act_outs":
+         [
+		     ]
+        }
+   ]
+}

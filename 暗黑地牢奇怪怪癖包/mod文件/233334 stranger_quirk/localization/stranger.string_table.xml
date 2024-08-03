@@ -1,0 +1,41 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<root>
+
+  <language id="english">
+
+    <!--  <怪癖疾病有关>//  -->
+  <entry id="str_quirk_name_I_AM_FIRE"><![CDATA[吾即火焰]]></entry>
+  <entry id="str_quirk_name_DD2_BOSS_1"><![CDATA[否定之锁]]></entry>
+  <entry id="str_quirk_name_DD2_BOSS_2"><![CDATA[愤然叹息]]></entry>
+  <entry id="str_quirk_name_DD2_BOSS_3"><![CDATA[执迷之眼]]></entry>
+  <entry id="str_quirk_name_DD2_BOSS_4"><![CDATA[贪戾之撮]]></entry>
+  <entry id="str_quirk_name_DD2_BOSS_5"><![CDATA[主体]]></entry>
+  <entry id="str_quirk_name_BU_QUN_JING_SHEN"><![CDATA[不屈精神]]></entry>
+  <entry id="str_quirk_name_SELF_HEAL"><![CDATA[自救专家]]></entry>
+  <entry id="str_quirk_name_EQIC_HERO"><![CDATA[传说英雄]]></entry>
+  <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[ %+d%%受到的{colour_start|bleed}流血{colour_end}技能量 ]]></entry>
+  <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[ %+d%%受到的{colour_start|bleed}腐蚀{colour_end}技能量 ]]></entry>
+  <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[ %+d%%{colour_start|bleed}流血{colour_end}技能量 ]]></entry>
+
+  </language>
+
+  <language id="schinese">
+
+    <!--  <怪癖疾病有关>//  -->
+  <entry id="str_quirk_name_I_AM_FIRE"><![CDATA[吾即火焰]]></entry>
+  <entry id="str_quirk_name_DD2_BOSS_1"><![CDATA[否定之锁]]></entry>
+  <entry id="str_quirk_name_DD2_BOSS_2"><![CDATA[愤然叹息]]></entry>
+  <entry id="str_quirk_name_DD2_BOSS_3"><![CDATA[执迷之眼]]></entry>
+  <entry id="str_quirk_name_DD2_BOSS_4"><![CDATA[贪戾之撮]]></entry>
+  <entry id="str_quirk_name_DD2_BOSS_5"><![CDATA[主体]]></entry>
+  <entry id="str_quirk_name_BU_QUN_JING_SHEN"><![CDATA[不屈精神]]></entry>
+  <entry id="str_quirk_name_SELF_HEAL"><![CDATA[自救专家]]></entry>
+  <entry id="str_quirk_name_EQIC_HERO"><![CDATA[传说英雄]]></entry>
+  <entry id="buff_stat_tooltip_hp_dot_bleed_amount_received_percent"><![CDATA[ %+d%%受到的{colour_start|bleed}流血{colour_end}技能量 ]]></entry>
+  <entry id="buff_stat_tooltip_hp_dot_poison_amount_received_percent"><![CDATA[ %+d%%受到的{colour_start|bleed}腐蚀{colour_end}技能量 ]]></entry>
+  <entry id="buff_stat_tooltip_hp_dot_bleed_amount_percent"><![CDATA[ %+d%%{colour_start|bleed}流血{colour_end}技能量 ]]></entry>
+
+
+  </language>
+</root>

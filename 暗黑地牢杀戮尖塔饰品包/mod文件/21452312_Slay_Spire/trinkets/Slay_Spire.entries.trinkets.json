@@ -1,0 +1,153 @@
+{
+  "entries": [
+    {
+      "id": "Robber_1",
+      "buffs": [
+        "Robber_1_1",
+        "Trinket_Tooltip_Robber_1"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "collector",
+      "set_id": "Robber",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Robber_1_attack_1",
+        "Robber_1_attack_2"
+      ]
+    },
+    {
+      "id": "Robber_2",
+      "buffs": [
+        "Robber_2_1",
+        "Robber_2_2",
+        "Trinket_Tooltip_Robber_2"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "collector",
+      "set_id": "Robber",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": "",
+      "friendly_skill_additional_effects": [
+        "Robber_2_friendly_1",
+        "Robber_2_friendly_2"
+      ]
+    },
+    {
+      "id": "Spire_1",
+      "buffs": [
+        "Spire_1_1",
+        "Trinket_Tooltip_Spire_1",
+        "Trinket_Tooltip_Spire_2"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "collector",
+      "set_id": "Spire",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Slay_1_attack_1"
+      ],
+      "friendly_skill_additional_effects": [
+        "Slay_1_friendly_1"
+      ]
+    },
+    {
+      "id": "Spire_2",
+      "buffs": [
+        "Spire_2_1",
+        "Trinket_Tooltip_Spire_3",
+        "Trinket_Tooltip_Spire_4"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "collector",
+      "set_id": "Spire",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Slay_2_attack_1"
+      ],
+      "friendly_skill_additional_effects": [
+        "Slay_2_friendly_1"
+      ]
+    },
+    {
+      "id": "Boss_Panduolamohe",
+      "buffs": [
+        "Trinket_Tooltip_Spire_5",
+        "Boss_Panduolamohe_1",
+        "Boss_Panduolamohe_2",
+        "Boss_Panduolamohe_3",
+        "Boss_Panduolamohe_4",
+        "Boss_Panduolamohe_5",
+        "Boss_Panduolamohe_6"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "ancestral",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "Boss_Jinguan",
+      "buffs": [
+        "Trinket_Tooltip_Spire_6",
+        "Boss_Jinguan_1"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "ancestral",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Boss_Jinguan_attack_1",
+        "Boss_Jinguan_attack_2"
+      ]
+    },
+    {
+      "id": "Boss_Zhuzhongyaoshi",
+      "buffs": [
+        "Trinket_Tooltip_Spire_7",
+        "Boss_Zhuzhongyaoshi_1",
+        "Boss_Zhuzhongyaoshi_2",
+        "Boss_Zhuzhongyaoshi_3",
+        "Boss_Zhuzhongyaoshi_4"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "ancestral",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": "",
+      "attack_skill_additional_effects": [
+        "Boss_Zhuzhongyaoshi_attack_1"
+      ]
+    },
+    {
+      "id": "Boss_Kafenlubei",
+      "buffs": [
+        "Trinket_Tooltip_Spire_8",
+        "Boss_Kafenlubei_1",
+        "Boss_Kafenlubei_2",
+        "Boss_Kafenlubei_3",
+        "Boss_Kafenlubei_4"
+      ],
+      "hero_class_requirements": [
+      ],
+      "rarity": "ancestral",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    }
+  ]
+}

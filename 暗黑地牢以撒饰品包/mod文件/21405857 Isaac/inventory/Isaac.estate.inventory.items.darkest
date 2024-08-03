@@ -1,0 +1,1 @@
+inventory_item:	.type "estate" .id "sun_baby"        .base_stack_limit 1  .purchase_gold_value 4000	.sell_gold_value 0    .estate_can_be_provision true 

@@ -1,0 +1,1907 @@
+{
+  "buffs": [
+
+    {
+      "id": "Isaac_0_1",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": -1,
+      "remove_if_not_active": false,
+      "rule_type": "firstroundonly",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_0_2",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": 0.04,
+      "duration_type": "quest_end",
+      "duration": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_0_3",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "speed_rating",
+      "amount": 1,
+      "duration_type": "quest_end",
+      "duration": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_0_4",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "defense_rating",
+      "amount": -0.04,
+      "duration_type": "quest_end",
+      "duration": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_0_5",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": 1,
+      "remove_if_not_active": false,
+      "rule_type": "walking_backwards",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_1_1",
+      "stat_type": "hp_heal_percent",
+      "stat_sub_type": "",
+      "amount": 0.35,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_1_2",
+      "stat_type": "stress_heal_percent",
+      "stat_sub_type": "",
+      "amount": 0.35,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_1_3",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": -0.5,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_1_4",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": -0.5,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_1_5",
+      "stat_type": "hp_heal_percent",
+      "stat_sub_type": "",
+      "amount": -0.5,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_1_6",
+      "stat_type": "stress_heal_percent",
+      "stat_sub_type": "",
+      "amount": -0.5,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_1_7",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 0.35,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_1_8",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.35,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_3_1",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 0.2,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_3_2",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.2,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_3_3",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "speed_rating",
+      "amount": 2,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_4_1",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 0.3,
+      "remove_if_not_active": false,
+      "rule_type": "monsterSize",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 2,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_4_2",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.3,
+      "remove_if_not_active": false,
+      "rule_type": "monsterSize",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 2,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_4_3",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 0.5,
+      "remove_if_not_active": false,
+      "rule_type": "monsterSize",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 3,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_4_4",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.5,
+      "remove_if_not_active": false,
+      "rule_type": "monsterSize",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 3,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_4_5",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 1,
+      "remove_if_not_active": false,
+      "rule_type": "monsterSize",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 4,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_4_6",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 1,
+      "remove_if_not_active": false,
+      "rule_type": "monsterSize",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 4,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_5_1",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "max_hp",
+      "amount": 0.08,
+      "duration": 8,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_6_1",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "max_hp",
+      "amount": 0.3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_6_2",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 0.15,
+      "duration": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_6_3",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.15,
+      "duration": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_6_4",
+      "stat_type": "stress_dmg_percent",
+      "stat_sub_type": "",
+      "amount": -0.4,
+      "remove_if_not_active": false,
+      "rule_type": "virtued",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_6_5",
+      "stat_type": "stress_dmg_percent",
+      "stat_sub_type": "",
+      "amount": 0.2,
+      "remove_if_not_active": false,
+      "rule_type": "afflicted",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_6_6",
+      "stat_type": "stress_dmg_percent",
+      "stat_sub_type": "",
+      "amount": 0.2,
+      "remove_if_not_active": false,
+      "rule_type": "at_deaths_door",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_7_1",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "speed_rating",
+      "amount": 3,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_7_2",
+      "stat_type": "hp_dot_bleed_amount_percent",
+      "stat_sub_type": "",
+      "amount": 0.5,
+      "remove_if_not_active": false,
+      "rule_type": "target_hpbelow",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0.3,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_8_1",
+      "stat_type": "torchlight_burn_percent",
+      "stat_sub_type": "",
+      "amount": -0.75,
+      "remove_if_not_active": false,
+      "rule_type": "lightbelow",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 50,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_8_2",
+      "stat_type": "torchlight_burn_percent",
+      "stat_sub_type": "",
+      "amount": 0.5,
+      "remove_if_not_active": false,
+      "rule_type": "lightabove",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 50,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_8_3",
+      "stat_type": "hp_heal_received_percent",
+      "stat_sub_type": "",
+      "amount": -0.35,
+      "remove_if_not_active": false,
+      "rule_type": "hpabove",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0.5,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_8_4",
+      "stat_type": "hp_heal_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.5,
+      "remove_if_not_active": false,
+      "rule_type": "hpbelow",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0.5,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_8_5",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.35,
+      "remove_if_not_active": false,
+      "rule_type": "stress_below",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 50,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_8_6",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": -0.5,
+      "remove_if_not_active": false,
+      "rule_type": "stress_above",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 50,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_8_7",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "target_hpabove",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0.5,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_8_8",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "target_hpabove",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0.5,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_8_9",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": -0.15,
+      "remove_if_not_active": false,
+      "rule_type": "target_hpbelow",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0.5,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_8_10",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": -0.15,
+      "remove_if_not_active": false,
+      "rule_type": "target_hpbelow",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0.5,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_8_11",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "speed_rating",
+      "amount": -2,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "activated_first",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_8_12",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "speed_rating",
+      "amount": 3,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "activated_last",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_9_1",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": -0.25,
+      "remove_if_not_active": false,
+      "rule_type": "in_rank",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 3,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_9_2",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": -0.15,
+      "remove_if_not_active": false,
+      "rule_type": "in_rank",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 2,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_9_3",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.15,
+      "remove_if_not_active": false,
+      "rule_type": "in_rank",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 1,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_9_4",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "in_rank",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_10_1",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 0.15,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_10_2",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.15,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_11_1",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 0.5,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_11_2",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.5,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_11_3",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "max_hp",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_11_4",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "max_hp",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_11_5",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "speed_rating",
+      "amount": -15,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_11_6",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "defense_rating",
+      "amount": -1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_11_7",
+      "stat_type": "damage_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_11_8",
+      "stat_type": "guard_blocked",
+      "stat_sub_type": "",
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_11_9",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_11_10",
+      "stat_type": "party_surprise_chance",
+      "stat_sub_type": "",
+      "amount": -0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_11_11",
+      "stat_type": "monsters_surprise_chance",
+      "stat_sub_type": "",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_12_1",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "defense_rating",
+      "amount": 0.35,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_12_2",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": -0.35,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_13_1",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": 1,
+      "remove_if_not_active": false,
+      "rule_type": "hpbelow",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0.1,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_13_2",
+      "stat_type": "resistance",
+      "stat_sub_type": "death_blow",
+      "amount": 0.2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_13_3",
+      "stat_type": "resolve_check_percent",
+      "stat_sub_type": "",
+      "amount": 1,
+      "remove_if_not_active": false,
+      "rule_type": "at_deaths_door",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_13_4",
+      "stat_type": "hp_dot_heal",
+      "stat_sub_type": "",
+      "amount": 1,
+      "remove_if_not_active": true,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_14_1",
+      "stat_type": "hp_heal_received_percent",
+      "stat_sub_type": "",
+      "amount": -0.1,
+      "duration_type": "combat_end",
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_14_2",
+      "stat_type": "hp_dot_heal",
+      "stat_sub_type": "",
+      "amount": 10,
+      "duration": 4,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_14_3",
+      "stat_type": "hp_heal_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.5,
+      "duration_type": "combat_end",
+      "duration": 4,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_14_4",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "max_hp",
+      "amount": 0.2,
+      "duration_type": "combat_end",
+      "duration": 4,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_14_5",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "speed_rating",
+      "amount": 3,
+      "duration_type": "combat_end",
+      "duration": 4,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_14_6",
+      "stat_type": "hp_heal_received_percent",
+      "stat_sub_type": "eat",
+      "amount": 0.1,
+      "duration_type": "combat_end",
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_1",
+      "stat_type": "hp_heal_received_percent",
+      "stat_sub_type": "eat",
+      "amount": 1,
+      "remove_if_not_active": false,
+      "rule_type": "has_quirk",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "Devil_Visitor"
+      }
+    },
+    {
+      "id": "Isaac_15_2",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_3",
+      "stat_type": "hp_dot_bleed",
+      "stat_sub_type": "",
+      "amount": 5,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_4",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": -0.15,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_5",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 0.75,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_6",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.75,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_7",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "max_hp",
+      "amount": -0.5,
+      "duration": 4,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_8",
+      "stat_type": "damage_received_percent",
+      "stat_sub_type": "",
+      "amount": -0.7,
+      "duration": 6,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_9",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "max_hp",
+      "amount": -0.05,
+      "duration_type": "combat_end",
+      "duration": 4,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_10",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "max_hp",
+      "amount": 0.4,
+      "duration_type": "combat_end",
+      "duration": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_11",
+      "stat_type": "hp_dot_bleed",
+      "stat_sub_type": "",
+      "amount": 100,
+      "duration": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_12",
+      "stat_type": "cure_bleed_received_chance",
+      "stat_sub_type": "",
+      "amount": -1,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_13",
+      "stat_type": "hp_dot_heal",
+      "stat_sub_type": "",
+      "amount": 1,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_14",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 0.5,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_15",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.5,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_16",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": 0.2,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_17",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "speed_rating",
+      "amount": 5,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_18",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 0.5,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_19",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.5,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_20",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": 0.2,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_21",
+      "stat_type": "damage_reflect_percent",
+      "stat_sub_type": "",
+      "amount": 1,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_22",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": 0.3,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_23",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": 0.1,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_24",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "max_hp",
+      "amount": 0.2,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_25",
+      "stat_type": "damage_received_percent",
+      "stat_sub_type": "",
+      "amount": -1,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_26",
+      "stat_type": "ignore_stealth",
+      "stat_sub_type": "",
+      "amount": 1,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_27",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": 1,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "target_is_stealthed",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_28",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": -0.1,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_29",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": -0.2,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_30",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": 0.5,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "actorStatus",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "stunned"
+      }
+    },
+    {
+      "id": "Isaac_15_31",
+      "stat_type": "random_target_attack_chance",
+      "stat_sub_type": "",
+      "amount": 0.5,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_15_Cost",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "max_hp",
+      "amount": -0.1,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_16_1",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_16_2",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": 0.2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_16_3",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": -1,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_16_4",
+      "stat_type": "hp_dot_heal",
+      "stat_sub_type": "",
+      "amount": 3,
+      "duration": 4,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_16_5",
+      "stat_type": "stress_dot",
+      "stat_sub_type": "",
+      "amount": 1,
+      "duration": 40,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_16_6",
+      "stat_type": "resolve_check_percent",
+      "stat_sub_type": "",
+      "amount": 0.15,
+      "duration_type": "combat_end",
+      "duration": 4,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_17_1",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "speed_rating",
+      "amount": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_17_2",
+      "stat_type": "heartattack_stress_heal_percent",
+      "stat_sub_type": "",
+      "amount": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_18_1",
+      "stat_type": "disable_combat_skill_attribute",
+      "stat_sub_type": "bleed",
+      "amount": 1,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_18_2",
+      "stat_type": "disable_combat_skill_attribute",
+      "stat_sub_type": "poison",
+      "amount": 1,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_18_3",
+      "stat_type": "disable_combat_skill_attribute",
+      "stat_sub_type": "buff",
+      "amount": 1,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_18_4",
+      "stat_type": "disable_combat_skill_attribute",
+      "stat_sub_type": "debuff",
+      "amount": 1,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_18_5",
+      "stat_type": "disable_combat_skill_attribute",
+      "stat_sub_type": "stress",
+      "amount": 1,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_19_1",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_19_2",
+      "stat_type": "stress_heal_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.5,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_Sunbaby_1",
+      "stat_type": "scouting_chance",
+      "stat_sub_type": "",
+      "amount": 1,
+      "duration": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_20_1",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 10,
+      "remove_if_not_active": false,
+      "rule_type": "target_hpbelow",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0.25,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_20_2",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 10,
+      "remove_if_not_active": false,
+      "rule_type": "target_hpbelow",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0.25,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_20_3",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": 1,
+      "remove_if_not_active": false,
+      "rule_type": "target_hpbelow",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0.25,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_20_4",
+      "stat_type": "hp_heal_received_percent",
+      "stat_sub_type": "",
+      "amount": 10,
+      "remove_if_not_active": false,
+      "rule_type": "at_deaths_door",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_21_1",
+      "stat_type": "scouting_chance",
+      "stat_sub_type": "",
+      "amount": 0.15,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_21_2",
+      "stat_type": "scouting_chance",
+      "stat_sub_type": "",
+      "amount": 0.15,
+      "remove_if_not_active": false,
+      "rule_type": "lightbelow",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 1,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_21_3",
+      "stat_type": "party_surprise_chance",
+      "stat_sub_type": "",
+      "amount": -0.15,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_21_4",
+      "stat_type": "party_surprise_chance",
+      "stat_sub_type": "",
+      "amount": -0.15,
+      "remove_if_not_active": false,
+      "rule_type": "lightbelow",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 1,
+        "string": ""
+      }
+    },
+    {
+      "id": "Isaac_21_5",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": 0.5,
+      "remove_if_not_active": false,
+      "rule_type": "actor_base_class",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 1,
+        "string": "collector"
+      }
+    },
+    {
+      "id": "Hermit_Trinket_Tooltip",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "Hermit_Tooltip",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Devil_Trinket_Tooltip",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "Devil_Tooltip",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Stars_Trinket_Tooltip",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "Stars_Tooltip",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "CAIN_BUFF",
+      "stat_type": "ignore_protection",
+      "stat_sub_type": "",
+      "amount": 0.2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "AZAZEL_BUFF",
+      "stat_type": "tag_blocked",
+      "stat_sub_type": "",
+      "amount": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "LOST_BUFF",
+      "stat_type": "resistance",
+      "stat_sub_type": "stun",
+      "amount": 0.4,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "LAZARUS_BUFF",
+      "stat_type": "bleed_chance",
+      "stat_sub_type": "",
+      "amount": 0.3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "EDEN_BUFF",
+      "stat_type": "poison_chance",
+      "stat_sub_type": "",
+      "amount": 0.3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "LILITH_BUFF",
+      "stat_type": "debuff_chance",
+      "stat_sub_type": "",
+      "amount": 0.3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "KEEPER_BUFF",
+      "stat_type": "move_chance",
+      "stat_sub_type": "",
+      "amount": 0.3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "APOLLYON_BUFF",
+      "stat_type": "stun_chance",
+      "stat_sub_type": "",
+      "amount": 0.3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    }
+  ] 
+
+} 
+
+

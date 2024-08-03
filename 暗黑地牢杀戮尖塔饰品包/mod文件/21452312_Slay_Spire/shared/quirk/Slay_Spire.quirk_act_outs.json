@@ -1,0 +1,16 @@
+{
+   "quirk_act_outs":
+   [
+     	  {
+         "quirk_id" : "Honor_of_King",
+         "combat_start_turn_act_outs":
+         [
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 1},
+            { "id": "random_command", "data": { "number_value": 0.0, "string_value": "" }, "chance": 2}
+         ],
+         "reaction_act_outs":
+         [
+		     ]
+        }
+   ]
+}

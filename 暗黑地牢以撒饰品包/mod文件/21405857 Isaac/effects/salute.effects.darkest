@@ -1,0 +1,249 @@
+//愚者
+
+effect: .name "Isaac_0_kill" .target "performer"  .chance 100%  .buff_ids "Isaac_0_2" "Isaac_0_3" "Isaac_0_4"  .on_hit true .on_miss false .apply_once true .queue true
+
+//魔术师
+
+effect: .name "Isaac_1_attack" .target "performer"  .chance 100%  .buff_ids "Isaac_1_1" "Isaac_1_2" "Isaac_1_3" "Isaac_1_4" .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "Isaac_1_friendly" .target "performer"  .chance 100%   .buff_ids "Isaac_1_5" "Isaac_1_6" "Isaac_1_7" "Isaac_1_8" .on_hit true .on_miss false .apply_once true .queue true
+
+//女祭司
+
+effect: .name "Isaac_2_target_1" .target "target_group"  .chance 20%  .health_damage 10 .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "Isaac_2_target_2" .target "target_enemy_group"  .chance 20%  .health_damage 10 .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "Isaac_2_performer" .target "performer"  .chance 2%   .health_damage 10 .on_hit true .on_miss false .apply_once true .queue true
+
+//皇后
+
+effect: .name "Isaac_3_hited_1" .target "performer"  .chance 100% .buff_ids "Isaac_3_1" "Isaac_3_2" "Isaac_3_3" .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "Isaac_3_heal_1" .target "target_enemy_group"   .heal 3 .on_hit true .on_miss true .apply_once true .queue true .can_crit_heal false
+
+effect: .name "Isaac_3_heal_2" .target "performer_group"   .heal 4 .on_hit true .on_miss true .apply_once true .queue true .can_crit_heal false
+
+effect: .name "Isaac_3_heal_3" .target "target_group"   .heal 3 .on_hit true .on_miss true .apply_once true .queue true .can_crit_heal false
+
+effect: .name "Isaac_3_heal_4" .target "target_enemy_group"   .heal 4 .on_hit true .on_miss true .apply_once true .queue true .can_crit_heal false
+
+
+//皇帝
+
+
+//教皇
+
+effect: .name "Isaac_5_heal_1" .target "target"   .buff_ids "Isaac_5_1" .on_hit true .on_miss false  .queue true
+
+//恋人
+
+effect: .name "Isaac_6_groupother_1" .target "performer_group_other"   .buff_ids "Isaac_6_2" "Isaac_6_3" .on_hit true .on_miss false  .queue true
+
+
+
+//战车
+
+effect: .name "Isaac_7_performer_1" .target "performer"   .chance 25% .disease Rainbow_Horse  .on_hit true .on_miss true .queue true .has_description false .apply_once true .skill_instant true
+
+effect: .name "Isaac_7_target_2" .target "target_group"   .chance 0%  .dotBleed 10 .duration 1 .on_hit true .on_miss false
+
+effect: .name "Isaac_7_performer_4" .target "performer"   .pull 1 .chance 500% .buff_ids  .on_hit true .on_miss false
+
+effect: .name "Isaac_7_performer_6" .target "performer"   .chance 100%   .buff_ids "Isaac_7_1"  .on_hit true .on_miss false
+
+//彩虹独角兽
+
+effect: .name "Isaac_Rainbow_1" .target "performer"   .chance 100% .cure_disease 3 .on_hit true .on_miss false
+
+
+//正义
+
+effect: .name "Isaac_8_heal_1" .target "performer"   .heal 3 .on_hit true .on_miss true .apply_once true .queue true
+
+effect: .name "Isaac_8_target_2" .target "target_group"   .health_damage 3 .on_hit true .on_miss true .apply_once true .queue true
+
+effect: .name "Isaac_8_target_3" .target "target_enemy_group"   .health_damage 3 .on_hit true .on_miss true .apply_once true .queue true
+
+effect: .name "Isaac_8_torch_4" .target "performer"   .chance 100%   .buff_ids "Isaac_8_1" "Isaac_8_2"  .on_hit true .on_miss true .apply_once true .queue true
+
+effect: .name "Justice_Summon1" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters Frowning_Gaper_A .summon_chances 1 .summon_limits 1 .summon_ranks 1234 .on_hit true .on_miss false .has_description true .summon_does_roll_initiatives 0 .apply_once true
+
+//隐者
+
+effect: .name "Isaac_9_performer_1" .target "performer"   .chance 100% .disease Shop_Visitor  .on_hit true .on_miss true .queue true .has_description false .apply_once true .skill_instant true
+
+//商店交易
+
+effect: .name "Isaac_Trade_End" .target "performer"   .chance 100% .cure_disease 3 .on_hit true .on_miss false
+
+effect: .name "Isaac_Trade_1" .target "performer"   .chance 100% .buff_ids "Shop_Trade_1""Shop_Trade_2"  .on_hit true .on_miss false .bark "bengyouhe"
+
+effect: .name "Isaac_Trade_2" .target "target_enemy_group"   .health_damage 6 .on_hit true .on_miss true .apply_once true .queue true .bark "yanleiyinbaoqi"
+
+effect: .name "Isaac_Trade_3" .target "performer"   .health_damage 0 .on_hit true .on_miss true .apply_once true .queue true .bark "dundaopian"
+
+effect: .name "Isaac_Trade_4" .target "target_enemy_group"   .chance 120%  .stun 1  .on_hit true .on_miss true .apply_once true .queue true .bark "huixuanbiao"
+
+effect: .name "Isaac_Trade_5" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters Frowning_Gaper_A .summon_chances 1 .summon_limits 1 .summon_ranks 1234 .on_hit true .on_miss false .has_description false .summon_does_roll_initiatives 0 .apply_once true .bark "muzhixibi"
+
+effect: .name "Isaac_Trade_6" .target "performer"   .chance 100% .buff_ids "Shop_Trade_3" .on_hit true .on_miss true .apply_once true .queue true .bark "xinshishoushudao"
+
+effect: .name "Isaac_Trade_7" .target "performer"   .chance 100% .buff_ids "Shop_Trade_4" .on_hit true .on_miss true .apply_once true .queue true .bark "shengjing"
+
+effect: .name "Isaac_Trade_8" .target "performer"   .chance 100% .buff_ids "Shop_Trade_5""Shop_Trade_6""Shop_Trade_7" .on_hit true .on_miss true .apply_once true .queue true .bark "guanjueyaodai"
+
+effect: .name "Isaac_Trade_9" .target "target_enemy_group"   .chance 100% .buff_ids "Shop_Trade_8" .on_hit true .on_miss true .apply_once true .queue true .bark "haobiao"
+
+effect: .name "Isaac_Trade_10" .target "target"    .healstress 25 .on_hit true .on_miss true .apply_once true .queue true .bark "chao"
+
+effect: .name "Isaac_Trade_11" .target "target_enemy_group"    .chance 20% .health_damage 99999 .on_hit true .on_miss true .apply_once true .queue true .bark "C_plan"
+
+
+//命运之轮
+
+effect: .name "Isaac_10_performer_1" .target "performer"   .chance 66%  .buff_ids "Isaac_10_1""Isaac_10_2"  .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Isaac_10_performer_2" .target "performer"   .chance 33%  .heal 10  .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Isaac_10_performer_3" .target "performer"   .chance 2%  .heal 100  .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Isaac_10_performer_4" .target "performer"   .chance 1%  .healstress 200  .on_hit true .on_miss false .queue true .apply_once true
+
+//倒吊人
+
+effect: .name "Isaac_12_performer_1" .target "performer_group"   .heal 100  .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Isaac_12_performer_2" .target "performer_group"   .healstress 200  .on_hit true .on_miss false .queue true .apply_once true
+
+//节制
+
+effect: .name "Isaac_14_performer_1" .target "performer"   .health_damage 5  .buff_ids "Isaac_14_1" .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Isaac_14_performer_2"  .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters Frowning_Gaper_A .summon_chances 1 .summon_limits 1 .summon_ranks 1234 .on_hit true .on_miss false .has_description true .summon_does_roll_initiatives 0 .apply_once true
+
+effect: .name "Isaac_14_performer_3" .target "performer"  .chance 4%  .buff_ids "Isaac_14_2" "Isaac_14_3" "Isaac_14_4" "Isaac_14_5" .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Isaac_14_performer_4" .target "performer_group"   .buff_ids "Isaac_14_6"  .on_hit true .on_miss false .queue true .apply_once true
+
+//恶魔
+
+effect: .name "Isaac_15_performer_1" .target "performer"  .chance 100% .disease Devil_Visitor .on_hit true .on_miss false .queue true .apply_once true .has_description  false
+
+effect: .name "Isaac_15_liuhuanghuo" .target "target_enemy_group" .curio_result_type "positive"  .chance 100% .buff_ids "Isaac_15_3" .on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "liuhuanghuo"
+
+effect: .name "Isaac_15_madao" .target "performer"  .curio_result_type "positive" .chance 100% .buff_ids "Isaac_15_4" "Isaac_15_5" "Isaac_15_6""Isaac_15_Cost" .on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "madao"
+
+effect: .name "Isaac_15_gepimao" .target "performer" .curio_result_type "positive"  .chance 100% .buff_ids "Isaac_15_7" "Isaac_15_8""Isaac_15_Cost" .on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "gepimao"
+
+effect: .name "Isaac_15_gepimaozhuazhi" .target "performer"  .curio_result_type "positive" .chance 100%  .buff_ids "Isaac_15_9" "Isaac_15_10""Isaac_15_Cost"  .on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "gepimaozhuazhi"
+
+effect: .name "Isaac_15_xueshi" .target "performer"  .curio_result_type "positive" .chance 100%  .buff_ids "Isaac_15_11" "Isaac_15_12" "Isaac_15_13" "Isaac_15_14" "Isaac_15_15" "Isaac_15_16" "Isaac_15_17""Isaac_15_Cost" .on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "xueshi"
+
+effect: .name "Isaac_15_zuonieshuangzhi" .target "performer"  .curio_result_type "positive" .chance 100%  .buff_ids "Isaac_15_18" "Isaac_15_19" "Isaac_15_20""Isaac_15_Cost" .on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "zuonieshuangzhi"
+
+effect: .name "Isaac_15_xianjibishou" .target "performer"  .curio_result_type "positive" .chance 100%  .buff_ids "Isaac_15_21""Isaac_15_Cost" .on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "xianjibishou"
+
+effect: .name "Isaac_15_anwuzhi" .target "target"  .curio_result_type "positive" .chance 100%  .buff_ids "Isaac_15_22" "Isaac_15_23" .on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "anwuzhi"
+
+effect: .name "Isaac_15_kongrongqi" .target "performer" .curio_result_type "positive"  .chance 100%  .buff_ids "Isaac_15_24" "Isaac_15_25""Isaac_15_Cost" .on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "kongrongqi"
+
+effect: .name "Isaac_15_gepimaoyanjing" .target "performer" .curio_result_type "positive"  .chance 100%  .buff_ids "Isaac_15_26" "Isaac_15_27""Isaac_15_Cost" .on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "gepimaoyanjing"
+
+effect: .name "Isaac_15_kongburushi" .target "target_enemy_group"  .curio_result_type "positive" .chance 100%  .buff_ids "Isaac_15_28" "Isaac_15_29" .on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "kongburushi"
+
+effect: .name "Isaac_15_beichi" .target "performer"  .curio_result_type "positive" .chance 100%  .buff_ids "Isaac_15_30""Isaac_15_Cost" .on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "beichi"
+
+effect: .name "Isaac_15_power" .target "performer"  .curio_result_type "positive" .chance 100%  .buff_ids "Isaac_15_31" .on_hit true .on_miss false .queue true .apply_once true
+
+//塔
+
+effect: .name "Isaac_16_performer_1" .target "performer"   .dotHpHeal 3  .duration 2  .buff_ids "Isaac_16_3" .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Isaac_16_performer_2" .target "performer"   .stress 2 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Isaac_16_performer_3" .target "performer"   .chance 5%  .buff_ids "Isaac_16_6" .on_hit true .on_miss false .queue true .apply_once true
+
+//星星
+
+effect: .name "Isaac_17_performer_1" .target "target"  .chance 100% .clearDotStress 1 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Isaac_17_performer_2" .target "performer"  .chance 100% .disease Chest_Visitor .on_hit true .on_miss false .queue true .apply_once true .has_description  false
+
+effect: .name "Isaac_17_tugen" .target "performer"  .curio_result_type "positive" .chance 100%  .buff_ids "Chest_Visitor_1" "Chest_Visitor_2".on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "tugen"
+
+effect: .name "Isaac_17_kejiX" .target "performer"  .curio_result_type "positive" .chance 100%  .buff_ids "Chest_Visitor_3" "Chest_Visitor_4" "Chest_Visitor_5" "Chest_Visitor_6".on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "kejiX"
+
+effect: .name "Isaac_17_taierboshi" .target "performer"  .curio_result_type "positive" .chance 100%  .buff_ids "Chest_Visitor_7".on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "taierboshi"
+
+effect: .name "Isaac_17_shengbing" .target "performer"  .curio_result_type "positive" .chance 100%  .buff_ids "Chest_Visitor_8".on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "shengbing"
+
+effect: .name "Isaac_17_wanmeishili" .target "performer"  .curio_result_type "positive" .chance 100%  .buff_ids "Chest_Visitor_9".on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "wanmeishili"
+
+effect: .name "Isaac_17_xingyunjiao" .target "performer"  .curio_result_type "positive" .chance 100%  .buff_ids "Chest_Visitor_10".on_hit true .on_miss false .queue true .apply_once true .has_description false .bark "xingyunjiao"
+
+//月亮
+effect: .name "Isaac_18_performer_1" .target "performer" .chance 75% .initiative_change 1 .on_hit false .on_miss true .queue true .apply_once true
+
+effect: .name "Isaac_18_target_2" .target "target" .chance 100%  .buff_ids "Isaac_18_1" .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Isaac_18_target_3" .target "target" .chance 100%  .buff_ids "Isaac_18_2" .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Isaac_18_target_4" .target "target" .chance 100%  .buff_ids "Isaac_18_3" .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Isaac_18_target_5" .target "target" .chance 100%  .buff_ids "Isaac_18_4" .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Isaac_18_target_6" .target "target" .chance 100%  .buff_ids "Isaac_18_5" .on_hit true .on_miss false .queue true .apply_once true
+
+//太阳
+
+effect: .name "Isaac_19_performer_1" .target "performer"  .chance 30%  .summon_count 1 .summon_can_spawn_loot true .summon_monsters Clotty_A.summon_chances 1 .summon_limits 1 .summon_ranks 1234 .on_hit true .on_miss false .has_description true .summon_does_roll_initiatives 0 .apply_once true
+
+effect: .name "Isaac_19_performer_2" .target "performer"   .buff_ids "Isaac_19_2" .on_hit true .on_miss false .queue true .apply_once true
+
+//道具-太阳宝宝
+
+effect: .name "sun_baby" .target "performer_group" .curio_result_type "positive" .item 1.heal 5.healstress 10.torch_increase 100.buff_ids "Isaac_Sunbaby_1".on_hit true .on_miss true
+
+//神圣卡
+
+effect: .name "Isaac_holy_performer_1" .target "performer"    .chance 33% .health_damage_blocks 1 .on_hit true .on_miss false .queue true .apply_once true
+
+//游魂
+
+effect: .name "Isaac_Lost_Change" .target "performer"  .chance 100% .disease Lost .on_hit true .on_miss true .queue true .apply_once true .has_description  false
+
+effect: .name "Isaac_Lost_1" .target "performer"    .chance 100% .health_damage_blocks 1 .on_hit true .on_miss false .queue true .apply_once true
+
+effect: .name "Isaac_Lost_2" .target "performer"    .chance 100% .stealth 2 .on_hit true .on_miss false .queue true .apply_once true
+
+
+//犹大
+
+effect: .name "SHIFT_BLEED" .target "target" .curio_result_type "positive" .chance 100% .swap_source_and_target true .steal_buff_stat_type hp_dot_bleed .on_hit true .on_miss false .queue true 
+
+effect: .name "SHIFT_POISON" .target "target" .curio_result_type "positive" .chance 100% .swap_source_and_target true .steal_buff_stat_type hp_dot_poison .on_hit true .on_miss false .queue true
+
+//抹大拉
+
+effect: .name "CLEAR_DEBUFF" .target "performer"    .chance 100% .clear_debuff 1 .on_hit true .on_miss true .queue true .apply_once true
+
+//夏娃
+
+effect: .name "CLEAR_BLEED" .target "performer"    .chance 100% .cure_bleed 1 .on_hit true .on_miss true .queue true .apply_once true
+
+//参孙
+
+effect: .name "CLEAR_POISON" .target "performer"    .chance 100% .cure_poison 1 .on_hit true .on_miss true .queue true .apply_once true
+
+//遗骸
+
+effect: .name "Forgotten_Pull" .target "performer"    .chance 500% .pull 1 .on_hit true .on_miss true .queue true .apply_once true
+
+//伯大尼
+
+effect: .name "Bethany_Push" .target "performer"    .chance 500% .push 1 .on_hit true .on_miss true .queue true .apply_once true
+
+//双子
+
+effect: .name "Jacob_Esau_Turn" .target "performer"    .chance 15% .initiative_change 1 .on_hit true .on_miss true .queue true .apply_once true

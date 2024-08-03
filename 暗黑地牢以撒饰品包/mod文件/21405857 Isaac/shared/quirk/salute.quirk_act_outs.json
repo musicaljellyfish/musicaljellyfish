@@ -1,0 +1,96 @@
+{
+   "quirk_act_outs":
+   [
+     	  {
+         "quirk_id" : "Rainbow_Horse",
+         "combat_start_turn_act_outs":
+         [
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 0},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "" }, "chance": 7},
+            { "id": "stress_heal_party", "data": { "number_value": 0.0, "string_value": "Isaac_Rainbow_1" }, "chance": 3},
+            { "id": "attack_friendly", "data": { "number_value": 0.0, "string_value": "" }, "chance": 0},
+            { "id": "buff_random_party_member", "data": { "number_value": 0.0, "string_value": "" }, "chance": 0},
+            { "id": "buff_random_party_member", "data": { "number_value": 0.0, "string_value": "" }, "chance": 0},
+            { "id": "buff_party", "data": { "number_value": 0.0, "string_value": "" }, "chance": 0},
+            { "id": "heal_self", "data": { "number_value": 0.1,"string_value": "" }, "chance": 0}
+         ],
+         "reaction_act_outs":
+         [
+		     ]
+        },
+     	  {
+         "quirk_id" : "Shop_Visitor",
+         "combat_start_turn_act_outs":
+         [
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 11},
+            { "id": "stress_heal_party", "data": { "number_value": 0.0, "string_value": "Isaac_Trade_End" }, "chance": 0},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_Trade_1" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_Trade_2" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_Trade_3" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_Trade_4" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_Trade_5" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_Trade_6" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_Trade_7" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_Trade_8" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_Trade_9" }, "chance": 1},
+            { "id": "buff_random_party_member", "data": { "number_value": 0.0, "string_value": "Isaac_Trade_10" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_Trade_11" }, "chance": 1}
+         ],
+         "reaction_act_outs":
+         [
+		     ]
+        },
+     	  {
+         "quirk_id" : "Devil_Visitor",
+         "combat_start_turn_act_outs":
+         [
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 12},
+            { "id": "stress_heal_party", "data": { "number_value": 0.0, "string_value": "" }, "chance": 0},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_15_liuhuanghuo" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_15_madao" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_15_gepimao" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_15_gepimaozhuazhi" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_15_xueshi" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_15_zuonieshuangzhi" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_15_xianjibishou" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_15_anwuzhi" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_15_kongrongqi" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_15_gepimaoyanjing" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_15_kongburushi" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_15_beichi" }, "chance": 1}
+         ],
+         "reaction_act_outs":
+         [
+		     ]
+        },
+     	  {
+         "quirk_id" : "Chest_Visitor",
+         "combat_start_turn_act_outs":
+         [
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 6},
+            { "id": "stress_heal_party", "data": { "number_value": 0.0, "string_value": "" }, "chance": 0},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_17_tugen" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_17_kejiX" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_17_taierboshi" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_17_shengbing" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_17_wanmeishili" }, "chance": 1},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_17_xingyunjiao" }, "chance": 1}
+         ],
+         "reaction_act_outs":
+         [
+		     ]
+        },
+     	  {
+         "quirk_id" : "Lost",
+         "combat_start_turn_act_outs":
+         [
+            { "id": "nothing", "data": { "number_value": 0.0, "string_value": "" }, "chance": 7},
+            { "id": "stress_heal_self", "data": { "number_value": 0.0, "string_value": "Isaac_Lost_1" }, "chance": 1},
+            { "id": "heal_self", "data": { "number_value": 1.0, "string_value": "Isaac_Lost_2" }, "chance": 2}
+         ],
+         "reaction_act_outs":
+         [
+		     ]
+        }
+   ]
+}

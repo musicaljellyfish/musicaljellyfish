@@ -1,0 +1,19 @@
+{
+  "sets": [
+    {
+      "id": "Robber",
+      "buffs": [
+        "Robber_Set_1",
+        "Robber_Set_2",
+        "Robber_Set_3"
+      ]
+    },
+    {
+      "id": "Spire",
+      "buffs": [
+        "Spire_Set_1",
+        "Spire_Set_2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+   "loot_tables" :
+   [
+      {
+         "id" : "Penny",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 95, "data" : { "type" : "gold", "id" : "", "amount" : 400 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 2000 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gem", "id" : "trapezohedron", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "Key",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 7, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "supply", "id" : "skeleton_key", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "Sun",
+         "difficulty" : 0,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "estate", "id" : "sun_baby", "amount" : 1 }}
+         ]
+      },
+      {
+         "id" : "C",
+         "difficulty" : 1,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 25 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 750 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 1000 }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "Friend" }}
+         ]
+      },
+      {
+         "id" : "C",
+         "difficulty" : 3,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gold", "id" : "", "amount" : 25 }},
+            { "type" : "item", "chances" : 3, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 750 }},
+            { "type" : "item", "chances" : 4, "data" : { "type" : "gold", "id" : "", "amount" : 1000 }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "Friend" }}
+         ]
+      },
+      {
+         "id" : "C",
+         "difficulty" : 5,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 25 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "gold", "id" : "", "amount" : 750 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 1000 }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "Friend" }}
+         ]
+      },
+      {
+         "id" : "C",
+         "difficulty" : 6,
+         "dungeon" : "",
+         "entries" :
+         [
+            { "type" : "nothing", "chances" : 0, "data" : { }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 25 }},
+            { "type" : "item", "chances" : 1, "data" : { "type" : "gold", "id" : "", "amount" : 50 }},
+            { "type" : "item", "chances" : 2, "data" : { "type" : "gold", "id" : "", "amount" : 100 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 250 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 500 }},
+            { "type" : "item", "chances" : 8, "data" : { "type" : "gold", "id" : "", "amount" : 750 }},
+            { "type" : "item", "chances" : 6, "data" : { "type" : "gold", "id" : "", "amount" : 1000 }},
+            { "type" : "trinket", "chances" : 2, "data" : { "rarity" : "Friend" }}
+         ]
+      }
+   ]
+}

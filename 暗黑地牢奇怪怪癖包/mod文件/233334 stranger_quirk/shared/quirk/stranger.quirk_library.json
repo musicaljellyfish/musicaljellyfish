@@ -1,0 +1,200 @@
+{
+  "quirks": [
+    {
+      "id": "I_AM_FIRE",
+      "show_explicit_buff_description": true,
+      "show_flavor_description": false,
+      "random_chance": 2,
+      "is_positive": true,
+      "is_disease": false,
+      "classification": "physical",
+      "incompatible_quirks": [
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0.0,
+      "keep_loot": false,
+      "buffs": [
+        "dd_talisman_stress_buff",
+        "dd_talisman_dmg_buff",
+        "I_AM_FIRE_BUFF_1"
+      ],
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": true
+    },
+    {
+      "id": "DD2_BOSS_1",
+      "show_explicit_buff_description": true,
+      "show_flavor_description": false,
+      "random_chance": 2,
+      "is_positive": true,
+      "is_disease": false,
+      "classification": "physical",
+      "incompatible_quirks": [
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0.0,
+      "keep_loot": false,
+      "buffs": [
+        "DD2_BOSS_1_BUFF_1"
+      ],
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": true
+    },
+    {
+      "id": "DD2_BOSS_2",
+      "show_explicit_buff_description": true,
+      "show_flavor_description": false,
+      "random_chance": 2,
+      "is_positive": true,
+      "is_disease": false,
+      "classification": "physical",
+      "incompatible_quirks": [
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0.0,
+      "keep_loot": false,
+      "buffs": [
+        "DD2_BOSS_2_BUFF_1",
+        "DD2_BOSS_2_BUFF_2",
+        "DD2_BOSS_2_BUFF_3"
+      ],
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": true
+    },
+    {
+      "id": "DD2_BOSS_3",
+      "show_explicit_buff_description": true,
+      "show_flavor_description": false,
+      "random_chance": 2,
+      "is_positive": true,
+      "is_disease": false,
+      "classification": "physical",
+      "incompatible_quirks": [
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0.0,
+      "keep_loot": false,
+      "buffs": [
+        "DD2_BOSS_3_BUFF_1",
+        "DD2_BOSS_3_BUFF_2",
+        "DD2_BOSS_3_BUFF_3"
+      ],
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": true
+    },
+    {
+      "id": "DD2_BOSS_4",
+      "show_explicit_buff_description": true,
+      "show_flavor_description": false,
+      "random_chance": 2,
+      "is_positive": true,
+      "is_disease": false,
+      "classification": "physical",
+      "incompatible_quirks": [
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0.0,
+      "keep_loot": false,
+      "buffs": [
+        "DD2_BOSS_4_BUFF_1",
+        "DD2_BOSS_4_BUFF_2",
+        "DD2_BOSS_4_BUFF_3"
+      ],
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": true
+    },
+    {
+      "id": "DD2_BOSS_5",
+      "show_explicit_buff_description": true,
+      "show_flavor_description": false,
+      "random_chance": 4,
+      "is_positive": true,
+      "is_disease": false,
+      "classification": "physical",
+      "incompatible_quirks": [
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0.0,
+      "keep_loot": false,
+      "buffs": [
+        "DD2_BOSS_5_BUFF_1",
+        "DD2_BOSS_5_BUFF_2",
+        "DD2_BOSS_5_BUFF_3",
+        "DD2_BOSS_5_BUFF_4",
+        "DD2_BOSS_5_BUFF_5"
+      ],
+      "tags": [
+        "singleton",
+        "remove_on_death",
+        "cant_lock"
+      ],
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": false
+    },
+    {
+      "id": "BU_QUN_JING_SHEN",
+      "show_explicit_buff_description": true,
+      "show_flavor_description": false,
+      "random_chance": 2,
+      "is_positive": true,
+      "is_disease": false,
+      "classification": "physical",
+      "incompatible_quirks": [
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0.0,
+      "keep_loot": false,
+      "buffs": [
+        "BU_QUN_JING_SHEN_BUFF_1",
+        "BU_QUN_JING_SHEN_BUFF_2",
+        "BU_QUN_JING_SHEN_BUFF_3"
+      ],
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": true
+    },
+    {
+      "id": "SELF_HEAL",
+      "show_explicit_buff_description": true,
+      "show_flavor_description": false,
+      "random_chance": 2,
+      "is_positive": true,
+      "is_disease": false,
+      "classification": "physical",
+      "incompatible_quirks": [
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0.0,
+      "keep_loot": false,
+      "buffs": [
+        "SELF_HEAL_BUFF_1",
+        "SELF_HEAL_BUFF_2",
+        "SELF_HEAL_BUFF_3"
+      ],
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": true
+    },
+    {
+      "id": "EQIC_HERO",
+      "show_explicit_buff_description": true,
+      "show_flavor_description": false,
+      "random_chance": 2,
+      "is_positive": true,
+      "is_disease": false,
+      "classification": "physical",
+      "incompatible_quirks": [
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0.0,
+      "keep_loot": false,
+      "buffs": [
+        "EQIC_HERO_BUFF_1",
+        "EQIC_HERO_BUFF_2",
+        "EQIC_HERO_BUFF_3"
+      ],
+      "can_modify_in_activity": true,
+      "can_be_replaced_by_new_quirk": true
+    }
+  ]
+}
+
+

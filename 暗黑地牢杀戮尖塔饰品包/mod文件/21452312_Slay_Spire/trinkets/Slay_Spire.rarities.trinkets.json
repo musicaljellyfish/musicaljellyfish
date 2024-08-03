@@ -1,0 +1,10 @@
+ {
+   "rarities":
+   [
+    {
+      "id": "Slay_Spire",
+      "award_category": "battle",
+      "insert_before": "crow"
+    }
+   ]
+}

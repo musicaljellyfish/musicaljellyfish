@@ -1,0 +1,431 @@
+{
+  "buffs": [
+
+    {
+      "id": "I_AM_FIRE_BUFF_1",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": -0.5,
+      "remove_if_not_active": false,
+      "rule_type": "in_dungeon",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "darkestdungeon"
+      }
+    },
+    {
+      "id": "DD2_BOSS_1_BUFF_1",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": -0.3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "DD2_BOSS_1_DEBUFF_11",
+      "stat_type": "disable_combat_skill_attribute",
+      "stat_sub_type": "buff",
+      "amount": 1,
+      "duration": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "DD2_BOSS_1_DEBUFF_22",
+      "stat_type": "disable_combat_skill_attribute",
+      "stat_sub_type": "debuff",
+      "amount": 1,
+      "duration": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "DD2_BOSS_1_DEBUFF_33",
+      "stat_type": "disable_combat_skill_attribute",
+      "stat_sub_type": "heal",
+      "amount": 1,
+      "duration": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "DD2_BOSS_1_DEBUFF_44",
+      "stat_type": "disable_combat_skill_attribute",
+      "stat_sub_type": "stress",
+      "amount": 1,
+      "duration": 1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "DD2_BOSS_2_BUFF_1",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": 0.12,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "DD2_BOSS_2_BUFF_2",
+      "stat_type": "hp_dot_bleed_amount_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.33,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "DD2_BOSS_2_BUFF_3",
+      "stat_type": "hp_dot_poison_amount_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.33,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "DD2_BOSS_3_BUFF_1",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "actorStatus",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "tagged"
+      }
+    },
+    {
+      "id": "DD2_BOSS_3_BUFF_2",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": 0.08,
+      "remove_if_not_active": false,
+      "rule_type": "actorStatus",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "tagged"
+      }
+    },
+    {
+      "id": "DD2_BOSS_3_BUFF_3",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": 0.04,
+      "remove_if_not_active": false,
+      "rule_type": "actorStatus",
+      "is_false_rule": true,
+      "rule_data": {
+        "float": 0,
+        "string": "tagged"
+      }
+    },
+    {
+      "id": "DD2_BOSS_4_BUFF_1",
+      "stat_type": "hp_dot_bleed_amount_percent",
+      "stat_sub_type": "",
+      "amount": 0.33,
+      "remove_if_not_active": false,
+      "rule_type": "actorStatus",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "bleeding"
+      }
+    },
+    {
+      "id": "DD2_BOSS_4_BUFF_2",
+      "stat_type": "bleed_chance",
+      "stat_sub_type": "",
+      "amount": 0.15,
+      "remove_if_not_active": false,
+      "rule_type": "actorStatus",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "bleeding"
+      }
+    },
+    {
+      "id": "DD2_BOSS_4_BUFF_3",
+      "stat_type": "resistance",
+      "stat_sub_type": "bleed",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "DD2_BOSS_5_BUFF_1",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": -1,
+      "remove_if_not_active": false,
+      "rule_type": "monsterType",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "eldritch"
+      }
+    },
+    {
+      "id": "DD2_BOSS_5_BUFF_2",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "monsterType",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "eldritch"
+      }
+    },
+    {
+      "id": "DD2_BOSS_5_BUFF_3",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "monsterType",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "eldritch"
+      }
+    },
+    {
+      "id": "DD2_BOSS_5_BUFF_4",
+      "stat_type": "crit_received_chance",
+      "stat_sub_type": "",
+      "amount": -0.2,
+      "remove_if_not_active": false,
+      "rule_type": "monsterType",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "eldritch"
+      }
+    },
+    {
+      "id": "DD2_BOSS_5_BUFF_5",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "BU_QUN_JING_SHEN_BUFF_1",
+      "stat_type": "hp_dot_bleed_amount_received_percent",
+      "stat_sub_type": "",
+      "amount": -1,
+      "remove_if_not_active": false,
+      "rule_type": "at_deaths_door",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "BU_QUN_JING_SHEN_BUFF_2",
+      "stat_type": "hp_dot_poison_amount_received_percent",
+      "stat_sub_type": "",
+      "amount": -1,
+      "remove_if_not_active": false,
+      "rule_type": "at_deaths_door",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "BU_QUN_JING_SHEN_BUFF_3",
+      "stat_type": "resistance",
+      "stat_sub_type": "death_blow",
+      "amount": 0.2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "EQIC_HERO_BUFF_1",
+      "stat_type": "resolve_check_percent",
+      "stat_sub_type": "",
+      "amount": 0.25,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "EQIC_HERO_BUFF_2",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": -0.2,
+      "remove_if_not_active": false,
+      "rule_type": "afflicted",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "EQIC_HERO_BUFF_3",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": -0.2,
+      "remove_if_not_active": false,
+      "rule_type": "afflicted",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "SELF_HEAL_BUFF_1",
+      "stat_type": "hp_heal_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "has_item_id",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "bandage"
+      }
+    },
+    {
+      "id": "SELF_HEAL_BUFF_2",
+      "stat_type": "hp_heal_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "has_item_id",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "antivenom"
+      }
+    },
+    {
+      "id": "SELF_HEAL_BUFF_3",
+      "stat_type": "hp_heal_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "has_item_id",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "holy_water"
+      }
+    },
+    {
+      "id": "BANDAGE_HEAL_MORE",
+      "stat_type": "resistance",
+      "stat_sub_type": "bleed",
+      "amount": 0.1,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "ANTIVENOM_HEAL_MORE",
+      "stat_type": "resistance",
+      "stat_sub_type": "poison",
+      "amount": 0.1,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "LAUDANUM_HEAL_MORE",
+      "stat_type": "stress_dot_duration_received_percent",
+      "stat_sub_type": "",
+      "amount": -0.33,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    }
+  ] 
+
+} 
+
+

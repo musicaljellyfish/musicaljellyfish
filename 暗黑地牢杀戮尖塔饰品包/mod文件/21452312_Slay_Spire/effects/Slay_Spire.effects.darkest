@@ -1,0 +1,29 @@
+//强盗套装
+
+effect: .name "Robber_1_attack_1" .target "performer"  .chance 100%  .healstress 1  .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "Robber_1_attack_2" .target "target"  .chance 140%  .buff_ids "Robber_1_2"  .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "Robber_2_friendly_1" .target "performer"  .chance 100%  .buff_ids "Robber_2_3"  .on_hit true .on_miss false .apply_once true .queue true
+
+effect: .name "Robber_2_friendly_2" .target "performer_group"  .chance 100%  .buff_ids "Robber_2_3"  .on_hit true .on_miss false .apply_once true .queue true
+
+//尖塔套装
+
+effect: .name "Slay_1_attack_1" .target "target"  .chance 500%  .dotBleed 2  .duration 3  .on_hit true .on_miss false .apply_once true .queue true .has_description false
+
+effect: .name "Slay_1_friendly_1" .target "performer_group" .curio_result_type "positive" .chance 100% .duration 3 .combat_stat_buff 1 .damage_low_add 3 .damage_high_add 3 .on_hit true .on_miss false .has_description false
+
+effect: .name "Slay_2_attack_1" .target "target" .curio_result_type "positive" .chance 140% .duration 3 .combat_stat_buff 1 .damage_low_add -3 .damage_high_add -3 .on_hit true .on_miss false .apply_once true .queue true .has_description false
+
+effect: .name "Slay_2_friendly_1" .target "performer_group" .chance 15% .health_damage_blocks 1 .on_hit true .on_miss false .apply_once true .queue true .has_description false
+
+//金冠
+
+effect: .name "Boss_Jinguan_attack_1" .target "performer"  .chance 33%  .initiative_change 1  .on_hit true .on_miss true .apply_once true .queue true
+
+effect: .name "Boss_Jinguan_attack_2" .target "performer"  .chance 33%  .disease Honor_of_King.on_hit true .on_miss true .apply_once true .queue true
+
+//诅咒钥匙
+
+effect: .name "Boss_Zhuzhongyaoshi_attack_1" .target "performer"  .chance 500%  .buff_ids "Boss_Zhuzhongyaoshi_5""Boss_Zhuzhongyaoshi_6""Boss_Zhuzhongyaoshi_7"  .on_hit true .on_miss false .apply_once true .queue true

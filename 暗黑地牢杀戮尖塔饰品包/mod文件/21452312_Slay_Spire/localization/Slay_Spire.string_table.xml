@@ -1,0 +1,130 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<root>
+
+  <language id="english">
+
+    <!--  <怪癖疾病有关>//  -->
+
+
+    <!--  <饰品有关>//  -->
+
+
+    <entry id="trinket_rarity_Slay_Spire"><![CDATA[ 杀戮尖塔 ]]></entry>
+
+    <entry id="str_inventory_title_trinketRobber_1"><![CDATA[贪婪双刀]]></entry>
+
+    <entry id="str_inventory_title_trinketRobber_2"><![CDATA[准备好的烟雾弹]]></entry>
+
+    <entry id="str_inventory_title_trinketSpire_1"><![CDATA[尖塔之矛]]></entry>
+
+    <entry id="str_inventory_title_trinketSpire_2"><![CDATA[尖塔之盾]]></entry>
+
+    <entry id="str_inventory_title_trinketBoss_Panduolamohe"><![CDATA[潘多拉魔盒]]></entry>
+
+    <entry id="str_inventory_title_trinketBoss_Jinguan"><![CDATA[金冠]]></entry>
+
+    <entry id="str_inventory_title_trinketBoss_Zhuzhongyaoshi"><![CDATA[诅咒钥匙]]></entry>
+
+    <entry id="str_inventory_title_trinketBoss_Kafenlubei"><![CDATA[咖啡滤杯]]></entry>
+
+    <entry id="str_quirk_name_Honor_of_King"><![CDATA[ 第一名的荣耀 ]]></entry>
+
+    <entry id="str_quirk_description_Honor_of_King"><![CDATA[ 我是第一名，都要听我的 ]]></entry>
+
+    <entry id="str_random_command_Honor_of_King"><![CDATA[第一名有自己的想法]]></entry>
+
+    <entry id="str_random_command_Honor_of_King"><![CDATA[让你们看看我的本身]]></entry>
+
+    <entry id="str_random_command_Honor_of_King"><![CDATA[学着点，不是第一名的家伙]]></entry>
+
+    <entry id="str_inventory_set_title_Robber"><![CDATA["把钱交出来"]]></entry>
+
+    <entry id="str_inventory_set_title_Spire"><![CDATA["心脏的忠诚仆人"]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Robber_1"><![CDATA[ "嘿呀，嗨呀" ]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Robber_2"><![CDATA[ "让我找找，我的烟雾弹在哪里" ]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_1"><![CDATA[ 灼伤攻击:  攻击:目标:获得2/3的流血 ]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_2"><![CDATA[ 群体力量:  友军技能:所有队员:+3伤害(3回合) ]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_3"><![CDATA[ 盾击:        攻击:目标:-3伤害(3回合) ]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_4"><![CDATA[ 群体护盾:  友军技能:所有队员:概率获得一层护体格挡]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_5"><![CDATA["来自另一个维度的礼物-混乱无序"]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_6"><![CDATA["来自另一个维度的礼物-尊贵放纵"]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_7"><![CDATA["来自另一个维度的礼物-力量代价"]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_8"><![CDATA["来自另一个维度的礼物-无休无止"]]></entry>
+
+
+  </language>
+
+  <language id="schinese">
+
+    <!--  <怪癖疾病有关>//  -->
+
+
+    <!--  <饰品有关>//  -->
+
+
+
+    <entry id="trinket_rarity_Slay_Spire"><![CDATA[ 杀戮尖塔 ]]></entry>
+
+    <entry id="str_inventory_title_trinketRobber_1"><![CDATA[贪婪双刀]]></entry>
+
+    <entry id="str_inventory_title_trinketRobber_2"><![CDATA[准备好的烟雾弹]]></entry>
+
+    <entry id="str_inventory_title_trinketSpire_1"><![CDATA[尖塔之矛]]></entry>
+
+    <entry id="str_inventory_title_trinketSpire_2"><![CDATA[尖塔之盾]]></entry>
+
+    <entry id="str_inventory_title_trinketBoss_Panduolamohe"><![CDATA[潘多拉魔盒]]></entry>
+
+    <entry id="str_inventory_title_trinketBoss_Jinguan"><![CDATA[金冠]]></entry>
+
+    <entry id="str_inventory_title_trinketBoss_Zhuzhongyaoshi"><![CDATA[诅咒钥匙]]></entry>
+
+    <entry id="str_inventory_title_trinketBoss_Kafenlubei"><![CDATA[咖啡滤杯]]></entry>
+
+    <entry id="str_quirk_name_Honor_of_King"><![CDATA[ 第一名的荣耀 ]]></entry>
+
+    <entry id="str_quirk_description_Honor_of_King"><![CDATA[ 我是第一名，都要听我的 ]]></entry>
+
+    <entry id="str_random_command_Honor_of_King"><![CDATA[第一名有自己的想法]]></entry>
+
+    <entry id="str_random_command_Honor_of_King"><![CDATA[让你们看看我的本身]]></entry>
+
+    <entry id="str_random_command_Honor_of_King"><![CDATA[学着点，不是第一名的家伙]]></entry>
+
+    <entry id="str_inventory_set_title_Robber"><![CDATA["把钱交出来"]]></entry>
+
+    <entry id="str_inventory_set_title_Spire"><![CDATA["心脏的忠诚仆人"]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Robber_1"><![CDATA[ "嘿呀，嗨呀" ]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Robber_2"><![CDATA[ "让我找找，我的烟雾弹在哪里" ]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_1"><![CDATA[ 灼伤攻击:  攻击:目标:获得2/3的流血 ]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_2"><![CDATA[ 群体力量:  友军技能:所有队员:+3伤害(3回合) ]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_3"><![CDATA[ 盾击:        攻击:目标:-3伤害(3回合) ]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_4"><![CDATA[ 群体护盾:  友军技能:所有队员:低概率获得一层护体格挡]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_5"><![CDATA["来自另一个维度的礼物-混乱无序"]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_6"><![CDATA["来自另一个维度的礼物-尊贵放纵"]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_7"><![CDATA["来自另一个维度的礼物-力量代价"]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Spire_8"><![CDATA["来自另一个维度的礼物-无休无止"]]></entry>
+
+  </language>
+</root>

@@ -1,0 +1,539 @@
+{
+  "buffs": [
+
+    {
+      "id": "Robber_1_1",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "speed_rating",
+      "amount": 4,
+      "remove_if_not_active": false,
+      "rule_type": "firstroundonly",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Robber_1_2",
+      "stat_type": "damage_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.2,
+      "duration": 3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Robber_2_1",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "protection_rating",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Robber_2_2",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "defense_rating",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Robber_2_3",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "retreat",
+      "amount": -1,
+      "duration": 2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Robber_Set_1",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "has_item_id",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "ruby"
+      }
+    },
+    {
+      "id": "Robber_Set_2",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "has_item_id",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "sapphire"
+      }
+    },
+    {
+      "id": "Robber_Set_3",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "crit_chance",
+      "amount": 0.15,
+      "remove_if_not_active": false,
+      "rule_type": "has_item_id",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": "trapezohedron"
+      }
+    },
+    {
+      "id": "Spire_1_1",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Spire_2_1",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "protection_rating",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Spire_Set_1",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "protection_rating",
+      "amount": 0.2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Spire_Set_2",
+      "stat_type": "damage_reflect_percent",
+      "stat_sub_type": "",
+      "amount": 0.3,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Trinket_Tooltip_Robber_1",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "Robber_1",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Trinket_Tooltip_Robber_2",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "Robber_2",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Trinket_Tooltip_Spire_1",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "Spire_1",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Trinket_Tooltip_Spire_2",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "Spire_2",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Trinket_Tooltip_Spire_3",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "Spire_3",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Trinket_Tooltip_Spire_4",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "Spire_4",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Trinket_Tooltip_Spire_5",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "Spire_5",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Trinket_Tooltip_Spire_6",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "Spire_6",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Trinket_Tooltip_Spire_7",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "Spire_7",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Trinket_Tooltip_Spire_8",
+      "stat_type": "upgrade_discount",
+      "stat_sub_type": "Spire_8",
+      "amount": 0.1,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Boss_Panduolamohe_1",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 0.33,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Boss_Panduolamohe_2",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.33,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Boss_Panduolamohe_3",
+      "stat_type": "hp_heal_percent",
+      "stat_sub_type": "",
+      "amount": 0.33,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Boss_Panduolamohe_4",
+      "stat_type": "random_target_attack_chance",
+      "stat_sub_type": "",
+      "amount": 0.2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Boss_Panduolamohe_5",
+      "stat_type": "random_target_friendly_chance",
+      "stat_sub_type": "",
+      "amount": 0.2,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Boss_Panduolamohe_6",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": 0.15,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Boss_Jinguan_1",
+      "stat_type": "resolve_check_percent",
+      "stat_sub_type": "",
+      "amount": 0.33,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Boss_Zhuzhongyaoshi_1",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "amount": 0.33,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Boss_Zhuzhongyaoshi_2",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "amount": 0.33,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Boss_Zhuzhongyaoshi_3",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "amount": 0.33,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Boss_Zhuzhongyaoshi_4",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "crit_chance",
+      "amount": 0.33,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Boss_Zhuzhongyaoshi_5",
+      "stat_type": "combat_stat_add",
+      "stat_sub_type": "attack_rating",
+      "duration_type": "quest_end",
+      "duration": 1,
+      "amount": -0.01,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      },
+      "is_clear_debuff_valid": false
+    },
+    {
+      "id": "Boss_Zhuzhongyaoshi_6",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_low",
+      "duration_type": "quest_end",
+      "duration": 1,
+      "amount": -0.01,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      },
+      "is_clear_debuff_valid": false
+    },
+    {
+      "id": "Boss_Zhuzhongyaoshi_7",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "damage_high",
+      "duration_type": "quest_end",
+      "duration": 1,
+      "amount": -0.01,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      },
+      "is_clear_debuff_valid": false
+    },
+    {
+      "id": "Boss_Kafenlubei_1",
+      "stat_type": "combat_stat_multiply",
+      "stat_sub_type": "max_hp",
+      "amount": 0.33,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Boss_Kafenlubei_2",
+      "stat_type": "stress_dmg_received_percent",
+      "stat_sub_type": "",
+      "amount": -0.33,
+      "remove_if_not_active": false,
+      "rule_type": "always",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Boss_Kafenlubei_3",
+      "stat_type": "hp_heal_received_percent",
+      "stat_sub_type": "",
+      "amount": -1,
+      "remove_if_not_active": false,
+      "rule_type": "in_camp",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    },
+    {
+      "id": "Boss_Kafenlubei_4",
+      "stat_type": "stress_heal_received_percent",
+      "stat_sub_type": "",
+      "amount": -1,
+      "remove_if_not_active": false,
+      "rule_type": "in_camp",
+      "is_false_rule": false,
+      "rule_data": {
+        "float": 0,
+        "string": ""
+      }
+    }
+  ] 
+
+} 
+
+

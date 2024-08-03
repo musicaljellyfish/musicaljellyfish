@@ -1,0 +1,168 @@
+{
+  "quirks": [
+    {
+      "id": "Rainbow_Horse",
+      "show_explicit_buff_description": false,
+      "show_flavor_description": true,
+      "show_explicit_curio_tag_description": true,
+      "random_chance": 0,
+      "is_positive": false,
+      "is_disease": true,
+      "classification": "physical",
+      "incompatible_quirks": [
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0.0,
+      "keep_loot": false,
+      "buffs": [
+        "Rainbow_Horse_1",
+        "Rainbow_Horse_2",
+        "Rainbow_Horse_3",
+        "Rainbow_Horse_4",
+        "Rainbow_Horse_5",
+        "Rainbow_Horse_6",
+        "Rainbow_Horse_7",
+        "Rainbow_Horse_8",
+        "Rainbow_Horse_9",
+        "Rainbow_Horse_10",
+        "Rainbow_Horse_11",
+        "Rainbow_Horse_12"
+      ],
+      "can_modify_in_activity": false,
+      "can_be_replaced_by_new_quirk": false
+    },
+    {
+      "id": "Shop_Visitor",
+      "show_explicit_buff_description": false,
+      "show_flavor_description": true,
+      "show_explicit_curio_tag_description": true,
+      "random_chance": 0,
+      "is_positive": true,
+      "is_disease": false,
+      "classification": "physical",
+      "incompatible_quirks": [
+        "Devil_Visitor",
+        "Chest_Visitor"
+      ],
+      "curio_tag": "Treasure",
+      "curio_tag_chance": 0.3,
+      "keep_loot": true,
+      "buffs": [
+      ],
+      "can_modify_in_activity": false,
+      "can_be_replaced_by_new_quirk": false,
+      "evolution_duration_min": 40,
+      "evolution_duration_max": 50,
+      "evolution_town_progression_duration_change": 0,
+      "evolution_class_id": "Isaac_Searcher"
+    },
+    {
+      "id": "Devil_Visitor",
+      "show_explicit_buff_description": false,
+      "show_flavor_description": true,
+      "show_explicit_curio_tag_description": true,
+      "random_chance": 0,
+      "is_positive": true,
+      "is_disease": false,
+      "classification": "physical",
+      "incompatible_quirks": [
+        "Shop_Visitor",
+        "Chest_Visitor"
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0,
+      "keep_loot": true,
+      "buffs": [
+      ],
+      "can_modify_in_activity": false,
+      "can_be_replaced_by_new_quirk": false,
+      "evolution_duration_min": 40,
+      "evolution_duration_max": 50,
+      "evolution_town_progression_duration_change": 0,
+      "evolution_class_id": "Isaac_Searcher"
+    },
+    {
+      "id": "Chest_Visitor",
+      "show_explicit_buff_description": false,
+      "show_flavor_description": true,
+      "show_explicit_curio_tag_description": true,
+      "random_chance": 0,
+      "is_positive": true,
+      "is_disease": false,
+      "classification": "physical",
+      "incompatible_quirks": [
+        "Shop_Visitor",
+        "Devil_Visitor"
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0,
+      "keep_loot": true,
+      "buffs": [
+      ],
+      "can_modify_in_activity": false,
+      "can_be_replaced_by_new_quirk": false,
+      "evolution_duration_min": 40,
+      "evolution_duration_max": 50,
+      "evolution_town_progression_duration_change": 0,
+      "evolution_class_id": "Isaac_Searcher"
+    },
+    {
+      "id": "Isaac_Searcher",
+      "show_explicit_buff_description": true,
+      "show_flavor_description": false,
+      "show_explicit_curio_tag_description": false,
+      "random_chance": 0,
+      "is_positive": true,
+      "is_disease": false,
+      "classification": "physical",
+      "incompatible_quirks": [
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0,
+      "keep_loot": true,
+      "buffs": [
+        "SPD1",
+        "STRESSDMG-10"
+      ],
+      "can_modify_in_activity": false,
+      "can_be_replaced_by_new_quirk": true
+    },
+    {
+      "id": "Lost",
+      "show_explicit_buff_description": false,
+      "show_flavor_description": true,
+      "show_explicit_curio_tag_description": true,
+      "random_chance": 0,
+      "is_positive": true,
+      "is_disease": false,
+      "classification": "physical",
+      "incompatible_quirks": [
+      ],
+      "curio_tag": "",
+      "curio_tag_chance": 0,
+      "keep_loot": true,
+      "buffs": [
+        "SPD3",
+        "STRESSDMG20",
+        "TRINKET_CROW_WINGFEATHER_BUFF",
+        "Lost_1",
+        "Lost_2",
+        "Lost_3",
+        "Lost_4",
+        "Lost_5",
+        "Lost_6",
+        "Lost_7",
+        "Lost_8"
+      ],
+      "tags": [
+        "singleton",
+        "remove_on_death",
+        "cant_lock"
+      ],
+      "can_modify_in_activity": false,
+      "can_be_replaced_by_new_quirk": false
+    }
+  ]
+}
+
+

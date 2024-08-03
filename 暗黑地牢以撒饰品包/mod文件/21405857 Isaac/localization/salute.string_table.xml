@@ -1,0 +1,606 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<root>
+
+  <language id="english">
+    <!--  <怪癖疾病有关>//  -->
+
+    <entry id="str_quirk_name_Rainbow_Horse"><![CDATA[ 彩虹独角兽 ]]></entry>
+
+    <entry id="str_quirk_description_Rainbow_Horse"><![CDATA[ “在持续时间内无敌”]]></entry>
+
+    <entry id="str_stress_heal_self_Rainbow_Horse"><![CDATA[ 身体变成彩虹色 ]]></entry>
+
+    <entry id="str_stress_heal_self_Rainbow_Horse"><![CDATA[ 音乐开始加速 ]]></entry>
+
+    <entry id="str_stress_heal_self_Rainbow_Horse"><![CDATA[ 我已无敌 ]]></entry>
+
+    <entry id="str_stress_heal_party_Rainbow_Horse"><![CDATA[ 六秒钟过去了 ]]></entry>
+
+    <entry id="str_stress_heal_party_Rainbow_Horse"><![CDATA[ 我的力量消失了 ]]></entry>
+
+    <entry id="str_stress_heal_party_Rainbow_Horse"><![CDATA[ 音乐逐渐减缓 ]]></entry>
+
+    <entry id="str_quirk_name_Shop_Visitor"><![CDATA[商店访客 ]]></entry>
+
+    <entry id="str_quirk_description_Shop_Visitor"><![CDATA[店长:欢迎光临]]></entry>
+
+    <entry id="str_stress_heal_self_Shop_Visitor"><![CDATA[ 交易达成 ]]></entry>
+
+    <entry id="str_stress_heal_self_Shop_Visitor"><![CDATA[ 减十五块 ]]></entry>
+
+    <entry id="str_stress_heal_self_Shop_Visitor"><![CDATA[ 店长:买不起的别摸 ]]></entry>
+
+    <entry id="trigger_curio_quirk_Shop_Visitor"><![CDATA[我需要这个来抵债]]></entry>
+
+    <entry id="trigger_curio_quirk_Shop_Visitor"><![CDATA[我花了太多钱了，所以这个归我]]></entry>
+
+    <entry id="str_buff_random_party_member_Shop_Visitor"><![CDATA[ 卧槽,宝箱房里的圣心 ]]></entry>
+
+    <entry id="str_buff_random_party_member_Shop_Visitor"><![CDATA[ 天使房出硫磺火,有没有搞错 ]]></entry>
+
+    <entry id="str_stress_heal_party_Shop_Visitor"><![CDATA[ 交易结束 ]]></entry>
+
+    <entry id="str_stress_heal_party_Shop_Visitor"><![CDATA[ 额,好像没钱了 ]]></entry>
+
+    <entry id="str_quirk_name_Isaac_Searcher"><![CDATA[以撒探险家 ]]></entry>
+
+    <entry id="str_quirk_name_Devil_Visitor"><![CDATA[恶魔房访客 ]]></entry>
+
+    <entry id="str_quirk_name_Lost"><![CDATA[游魂 ]]></entry>
+
+    <entry id="str_quirk_description_Devil_Visitor"><![CDATA[献出汝之生命]]></entry>
+
+    <entry id="str_quirk_description_Lost"><![CDATA[迷失在回忆之中]]></entry>
+
+    <entry id="str_stress_heal_self_Devil_Visitor"><![CDATA[ 交易达成 ]]></entry>
+
+    <entry id="str_heal_self_Lost"><![CDATA[ 不要过来 ]]></entry>
+
+    <entry id="str_heal_self_Lost"><![CDATA[ 我在哪里 ]]></entry>
+
+    <entry id="str_heal_self_Lost"><![CDATA[ 爸爸妈妈，你们在哪里 ]]></entry>
+
+    <entry id="str_stress_heal_self_Lost"><![CDATA[ 神圣庇护着汝 ]]></entry>
+
+    <entry id="str_stress_heal_self_Lost"><![CDATA[ (低语)你的儿子已经被罪恶侵蚀，他需要救赎 ]]></entry>
+
+    <entry id="str_stress_heal_self_Lost"><![CDATA[ (低语)现在，把他献祭给我 ]]></entry>
+
+    <entry id="str_quirk_name_Chest_Visitor"><![CDATA[宝箱房访客 ]]></entry>
+
+    <entry id="str_quirk_description_Chest_Visitor"><![CDATA[应该能翻到好东西]]></entry>
+
+    <entry id="quirk_transition_Shop_Visitor_to_Isaac_Searcher"><![CDATA[额,好像没钱了]]></entry>
+
+    <entry id="quirk_transition_Devil_Visitor_to_Isaac_Searcher"><![CDATA[献祭结束]]></entry>
+
+    <entry id="quirk_transition_Chest_Visitor_to_Isaac_Searcher"><![CDATA[没什么可寻找的了]]></entry>
+
+    <entry id="str_ui_entering_Shop_Visitor"><![CDATA[]]></entry>
+
+    <entry id="str_ui_entering_Devil_Visitor"><![CDATA[]]></entry>
+
+    <entry id="str_ui_entering_Chest_Visitor"><![CDATA[]]></entry>
+
+    <entry id="str_ui_entering_Rainbow_Horse"><![CDATA[]]></entry>
+
+    <!--  <恶魔房效果触发台词>//  -->
+
+    <entry id="liuhuanghuo"><![CDATA[ 卧槽，硫磺火 ]]></entry>
+
+    <entry id="madao"><![CDATA[ 妈刀(开始转圈) ]]></entry>
+
+    <entry id="gepimao"><![CDATA[ 嗝屁猫(呃啊呃啊呃啊呃啊) ]]></entry>
+
+    <entry id="gepimaozhuazhi"><![CDATA[ 嗝屁猫爪子(可惜我是小蓝人) ]]></entry>
+
+    <entry id="xueshi"><![CDATA[ 血誓(问号诅咒为什么有这个 by伯大尼) ]]></entry>
+
+    <entry id="zuonieshuangzhi"><![CDATA[ 作孽双子(雷霆战机) ]]></entry>
+
+    <entry id="xianjibishou"><![CDATA[ 献祭匕首(看我无伤妈心) ]]></entry>
+
+    <entry id="anwuzhi"><![CDATA[ 暗物质(看着像空洞骑士) ]]></entry>
+
+    <entry id="kongrongqi"><![CDATA[ 空容器(问号诅咒为什么也有这个 by伯大尼) ]]></entry>
+
+    <entry id="gepimaoyanjing"><![CDATA[ 嗝屁猫眼睛(我看见恶魔房红箱子里全是炸弹和蜘蛛) ]]></entry>
+
+    <entry id="kongburushi"><![CDATA[ 恐怖如斯(你不要过来啊) ]]></entry>
+
+    <entry id="beichi"><![CDATA[ 背刺(哟，你被眩晕了，来让我看看) ]]></entry>
+
+    <!--  <商店效果触发台词>//  -->
+
+    <entry id="bengyouhe"><![CDATA[ 朋友盒(非常好道具 爱来自贪婪模式) ]]></entry>
+
+    <entry id="yanleiyinbaoqi"><![CDATA[ 眼泪引爆器(核裂变(不是)) ]]></entry>
+
+    <entry id="dundaopian"><![CDATA[ 钝剃刀片(开刷) ]]></entry>
+
+    <entry id="huixuanbiao"><![CDATA[ 回旋镖(可惜不是附魔回旋镖) ]]></entry>
+
+    <entry id="muzhixibi"><![CDATA[ 木制镍币(出一个10块就回本) ]]></entry>
+
+    <entry id="xinshishoushudao"><![CDATA[ 心室手术刀(看我无伤进刺房) ]]></entry>
+
+    <entry id="shengjing"><![CDATA[ 圣经(请不要在撒旦面前使用) ]]></entry>
+
+    <entry id="guanjueyaodai"><![CDATA[ 冠军腰带(这道具对我没有任何负面) ]]></entry>
+
+    <entry id="haobiao"><![CDATA[ 好表(你已经出了11张牌了) ]]></entry>
+
+    <entry id="chao"><![CDATA[ 混沌(混门) ]]></entry>
+
+    <entry id="C_plan"><![CDATA[ C计划(妈的，和它爆了) ]]></entry>
+
+    <!--  <道具房效果触发台词>//  -->
+
+    <entry id="str_stress_heal_self_Chest_Visitor"><![CDATA[ 让我看看能找到了什么]]></entry>
+
+    <entry id="tugen"><![CDATA[ 吐根(让人又爱又恨) ]]></entry>
+
+    <entry id="kejiX"><![CDATA[ 科技X(论弹速加成为什么是负面效果) ]]></entry>
+
+    <entry id="taierboshi"><![CDATA[ 胎儿博士(爆，爆，爆) ]]></entry>
+
+    <entry id="shengbing"><![CDATA[ 圣饼(献祭，启动) ]]></entry>
+
+    <entry id="wanmeishili"><![CDATA[ 完美视力(人称小作孽双子) ]]></entry>
+
+    <entry id="xingyunjiao"><![CDATA[ 幸运脚(射速上升，移速上升，幸运上升) ]]></entry>
+
+    <!--  <饰品有关>//  -->
+
+    <entry id="buff_stat_tooltip_torch_increase_persent"><![CDATA[ 技能加光翻倍 ]]></entry>
+
+    <entry id="buff_stat_tooltip_torch_decrease_persent"><![CDATA[ 技能不在加光 ]]></entry>
+
+    <entry id="trinket_rarity_Isaac"><![CDATA[ 以撒的结合 ]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Fool"><![CDATA[塔罗牌-愚者]]></entry>
+
+    <entry id="str_inventory_set_title_Fool_Introduce"><![CDATA[旅程开始之地，这张塔罗牌象征着对未来的勇气和信心，即使面对巨大的危险，依然不顾一切地前行]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Magician"><![CDATA[塔罗牌-魔术师]]></entry>
+
+    <entry id="str_inventory_set_title_Magician_Introduce"><![CDATA[愿您弹无虚发，这张塔罗牌象征着一切的开始，即使面对新事物，依然有优秀的成功率]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_High_Priestess"><![CDATA[塔罗牌-女祭司]]></entry>
+
+    <entry id="str_inventory_set_title_High_Priestess_Introduce"><![CDATA[妈妈在注视你,这张塔罗牌象征着对世间万物非凡的洞察力和直觉]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Empress"><![CDATA[塔罗牌-皇后]]></entry>
+
+    <entry id="str_inventory_set_title_Empress_Introduce"><![CDATA[愿您怒中生力，这张塔罗牌象征着美丽、温柔和对世间万物的关心]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Emperor"><![CDATA[塔罗牌-皇帝]]></entry>
+
+    <entry id="str_inventory_set_title_Emperor_Introduce"><![CDATA[挑战我！,这张塔罗牌象征着权威与对规则的服从]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Hierophant"><![CDATA[塔罗牌-教皇]]></entry>
+
+    <entry id="str_inventory_set_title_Hierophant_Introduce"><![CDATA[为迷途者祷告两次,这张塔罗牌象征着信仰、信念]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Lovers"><![CDATA[塔罗牌-恋人]]></entry>
+
+    <entry id="str_inventory_set_title_Lovers_Introduce"><![CDATA[愿您健康繁盛,这张塔罗牌象征着爱情、人际关系]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Chariot"><![CDATA[塔罗牌-战车]]></entry>
+
+    <entry id="str_inventory_set_title_Chariot_Introduce"><![CDATA[愿您所向披靡，这张塔罗牌象征着胜利和克服障碍的决心]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Justice"><![CDATA[塔罗牌-正义]]></entry>
+
+    <entry id="str_inventory_set_title_Justice_Introduce"><![CDATA[愿您仕途平稳,这张塔罗牌象征着公正和绝对的平衡]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Hermit"><![CDATA[塔罗牌-隐者]]></entry>
+
+    <entry id="str_inventory_set_title_Hermit_Introduce"><![CDATA[愿您看破红尘,这张塔罗牌象征着孤独、内省和寻求真理]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Wheel_of_Fortune"><![CDATA[塔罗牌-命运之轮]]></entry>
+
+    <entry id="str_inventory_set_title_Wheel_of_Fortune_Introduce"><![CDATA[转动命运之轮,这张塔罗牌象征着命运的无常和不可预测]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Strength"><![CDATA[塔罗牌-力量]]></entry>
+
+    <entry id="str_inventory_set_title_Strength_Introduce"><![CDATA[愿您力中唤怒,这张塔罗牌象征着力量、勇气、耐力]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Hanged_Man"><![CDATA[塔罗牌-倒吊人]]></entry>
+
+    <entry id="str_inventory_set_title_Hanged_Man_Introduce"><![CDATA[我们在这都会飞起来,这张塔罗牌象征着牺牲奉献和耐心等待]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Death"><![CDATA[塔罗牌-死亡]]></entry>
+
+    <entry id="str_inventory_set_title_Death_Introduce"><![CDATA[毁灭忤逆尔者,这张塔罗牌象征着结束死亡和随着而来的新生]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Temperance"><![CDATA[塔罗牌-节制]]></entry>
+
+    <entry id="str_inventory_set_title_Temperance_Introduce"><![CDATA[愿您内心纯洁,这张塔罗牌象征着中庸、调和]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Devil"><![CDATA[塔罗牌-恶魔]]></entry>
+
+    <entry id="str_inventory_set_title_Devil_Introduce"><![CDATA[沉迷黑暗之力,这张塔罗牌象征着罪恶、诱惑]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Tower"><![CDATA[塔罗牌-塔]]></entry>
+
+    <entry id="str_inventory_set_title_Tower_Introduce"><![CDATA[毁灭带来创造,这张塔罗牌象征着突变、灾难]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Stars"><![CDATA[塔罗牌-星星]]></entry>
+
+    <entry id="str_inventory_set_title_Stars_Introduce"><![CDATA[愿你心想事成,这张塔罗牌象征着希望]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Moon"><![CDATA[塔罗牌-月亮]]></entry>
+
+    <entry id="str_inventory_set_title_Moon_Introduce"><![CDATA[愿你失而复得,这张塔罗牌象征着恐惧、迷惑不安]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Sun"><![CDATA[塔罗牌-太阳]]></entry>
+
+    <entry id="str_inventory_set_title_Sun_Introduce"><![CDATA[愿光赐你启示,这张塔罗牌象征着成功、喜悦]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Judgement"><![CDATA[塔罗牌-审判]]></entry>
+
+    <entry id="str_inventory_set_title_Judgement_Introduce"><![CDATA[为避审而审判,这张塔罗牌象征着重生、觉醒]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_World"><![CDATA[塔罗牌-世界]]></entry>
+
+    <entry id="str_inventory_set_title_World_Introduce"><![CDATA[睁眼洞察世界,这张塔罗牌象征着成功、胜利]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Holy_Card"><![CDATA[神圣卡]]></entry>
+
+    <entry id="str_inventory_set_title_Holy_Card_Introduce"><![CDATA[你感到受保护,不要再呃啊了]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_Missing_Poster"><![CDATA[寻人启事]]></entry>
+
+    <entry id="str_inventory_set_title_Missing_Poster_Introduce"><![CDATA[???]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Hermit_Tooltip"><![CDATA[使用友方技能获得商店访客怪癖]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Devil_Tooltip"><![CDATA[击杀目标获得恶魔房访客怪癖]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Stars_Tooltip"><![CDATA[使用攻击技能获得宝箱房访客怪癖]]></entry>
+
+    <entry id="trinket_rarity_Friend"><![CDATA[ 朋友 ]]></entry>
+
+    <entry id="str_inventory_set_title_Friend_Until_End"><![CDATA[直到永远的朋友]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Isaac"><![CDATA[以撒]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Cain"><![CDATA[该隐]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Judas"><![CDATA[犹大]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Magdalene"><![CDATA[抹大拉]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Azazel"><![CDATA[AZ]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Eve"><![CDATA[夏娃]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Samson"><![CDATA[夏娃]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Lost"><![CDATA[游魂]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Lazarus"><![CDATA[拉萨路]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Eden"><![CDATA[伊甸]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Lilith"><![CDATA[莉莉丝]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Keeper"><![CDATA[店长]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Apollyon"><![CDATA[亚伯伦]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Forgotten"><![CDATA[遗骸]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Bethany"><![CDATA[伯大尼]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Jacob_Esau"><![CDATA[雅阁和以扫]]></entry>
+
+    <!--  <杂项>//  -->
+
+    <entry id="buff_rule_data_tooltip_collector"><![CDATA[收藏家]]></entry>
+
+  </language>
+
+  <language id="schinese">
+    <!--  <怪癖疾病有关>//  -->
+
+    <entry id="str_quirk_name_Rainbow_Horse"><![CDATA[ 彩虹独角兽 ]]></entry>
+
+    <entry id="str_quirk_description_Rainbow_Horse"><![CDATA[ “在持续时间内无敌”]]></entry>
+
+    <entry id="str_stress_heal_self_Rainbow_Horse"><![CDATA[ 身体变成彩虹色 ]]></entry>
+
+    <entry id="str_stress_heal_self_Rainbow_Horse"><![CDATA[ 音乐开始加速 ]]></entry>
+
+    <entry id="str_stress_heal_self_Rainbow_Horse"><![CDATA[ 我已无敌 ]]></entry>
+
+    <entry id="str_stress_heal_party_Rainbow_Horse"><![CDATA[ 六秒钟过去了 ]]></entry>
+
+    <entry id="str_stress_heal_party_Rainbow_Horse"><![CDATA[ 我的力量消失了 ]]></entry>
+
+    <entry id="str_stress_heal_party_Rainbow_Horse"><![CDATA[ 音乐逐渐减缓 ]]></entry>
+
+    <entry id="str_quirk_name_Shop_Visitor"><![CDATA[商店访客 ]]></entry>
+
+    <entry id="str_quirk_description_Shop_Visitor"><![CDATA[店长:欢迎光临]]></entry>
+
+    <entry id="str_stress_heal_self_Shop_Visitor"><![CDATA[ 交易达成 ]]></entry>
+
+    <entry id="str_stress_heal_self_Shop_Visitor"><![CDATA[ 减十五块 ]]></entry>
+
+    <entry id="str_stress_heal_self_Shop_Visitor"><![CDATA[ 店长:买不起的别摸 ]]></entry>
+
+    <entry id="trigger_curio_quirk_Shop_Visitor"><![CDATA[我需要这个来抵债]]></entry>
+
+    <entry id="trigger_curio_quirk_Shop_Visitor"><![CDATA[我花了太多钱了，所以这个归我]]></entry>
+
+    <entry id="str_buff_random_party_member_Shop_Visitor"><![CDATA[ 卧槽,宝箱房里的圣心 ]]></entry>
+
+    <entry id="str_buff_random_party_member_Shop_Visitor"><![CDATA[ 天使房出硫磺火,有没有搞错 ]]></entry>
+
+    <entry id="str_stress_heal_party_Shop_Visitor"><![CDATA[ 交易结束 ]]></entry>
+
+    <entry id="str_stress_heal_party_Shop_Visitor"><![CDATA[ 额,好像没钱了 ]]></entry>
+
+    <entry id="str_quirk_name_Isaac_Searcher"><![CDATA[以撒探险家 ]]></entry>
+
+    <entry id="str_quirk_name_Devil_Visitor"><![CDATA[恶魔房访客 ]]></entry>
+
+    <entry id="str_quirk_name_Lost"><![CDATA[游魂 ]]></entry>
+
+    <entry id="str_quirk_description_Devil_Visitor"><![CDATA[献出汝之生命]]></entry>
+
+    <entry id="str_quirk_description_Lost"><![CDATA[迷失在回忆之中]]></entry>
+
+    <entry id="str_stress_heal_self_Devil_Visitor"><![CDATA[ 交易达成 ]]></entry>
+
+    <entry id="str_heal_self_Lost"><![CDATA[ 不要过来 ]]></entry>
+
+    <entry id="str_heal_self_Lost"><![CDATA[ 我在哪里 ]]></entry>
+
+    <entry id="str_heal_self_Lost"><![CDATA[ 爸爸妈妈，你们在哪里 ]]></entry>
+
+    <entry id="str_stress_heal_self_Lost"><![CDATA[ 神圣庇护着汝 ]]></entry>
+
+    <entry id="str_stress_heal_self_Lost"><![CDATA[ (低语)你的儿子已经被罪恶侵蚀，他需要救赎 ]]></entry>
+
+    <entry id="str_stress_heal_self_Lost"><![CDATA[ (低语)现在，把他献祭给我 ]]></entry>
+
+    <entry id="str_quirk_name_Chest_Visitor"><![CDATA[宝箱房访客 ]]></entry>
+
+    <entry id="str_quirk_description_Chest_Visitor"><![CDATA[应该能翻到好东西]]></entry>
+
+    <entry id="quirk_transition_Shop_Visitor_to_Isaac_Searcher"><![CDATA[额,好像没钱了]]></entry>
+
+    <entry id="quirk_transition_Devil_Visitor_to_Isaac_Searcher"><![CDATA[献祭结束]]></entry>
+
+    <entry id="quirk_transition_Chest_Visitor_to_Isaac_Searcher"><![CDATA[没什么可寻找的了]]></entry>
+
+    <entry id="str_ui_entering_Shop_Visitor"><![CDATA[]]></entry>
+
+    <entry id="str_ui_entering_Devil_Visitor"><![CDATA[]]></entry>
+
+    <entry id="str_ui_entering_Chest_Visitor"><![CDATA[]]></entry>
+
+    <entry id="str_ui_entering_Rainbow_Horse"><![CDATA[]]></entry>
+
+    <!--  <恶魔房效果触发台词>//  -->
+
+    <entry id="liuhuanghuo"><![CDATA[ 卧槽，硫磺火 ]]></entry>
+
+    <entry id="madao"><![CDATA[ 妈刀(开始转圈) ]]></entry>
+
+    <entry id="gepimao"><![CDATA[ 嗝屁猫(呃啊呃啊呃啊呃啊) ]]></entry>
+
+    <entry id="gepimaozhuazhi"><![CDATA[ 嗝屁猫爪子(可惜我是小蓝人) ]]></entry>
+
+    <entry id="xueshi"><![CDATA[ 血誓(问号诅咒为什么有这个 by伯大尼) ]]></entry>
+
+    <entry id="zuonieshuangzhi"><![CDATA[ 作孽双子(雷霆战机) ]]></entry>
+
+    <entry id="xianjibishou"><![CDATA[ 献祭匕首(看我无伤妈心) ]]></entry>
+
+    <entry id="anwuzhi"><![CDATA[ 暗物质(看着像空洞骑士) ]]></entry>
+
+    <entry id="kongrongqi"><![CDATA[ 空容器(问号诅咒为什么也有这个 by伯大尼) ]]></entry>
+
+    <entry id="gepimaoyanjing"><![CDATA[ 嗝屁猫眼睛(我看见恶魔房红箱子里全是炸弹和蜘蛛) ]]></entry>
+
+    <entry id="kongburushi"><![CDATA[ 恐怖如斯(你不要过来啊) ]]></entry>
+
+    <entry id="beichi"><![CDATA[ 背刺(哟，你被眩晕了，来让我看看) ]]></entry>
+
+    <!--  <商店效果触发台词>//  -->
+
+    <entry id="bengyouhe"><![CDATA[ 朋友盒(非常好道具 爱来自贪婪模式) ]]></entry>
+
+    <entry id="yanleiyinbaoqi"><![CDATA[ 眼泪引爆器(核裂变(不是)) ]]></entry>
+
+    <entry id="dundaopian"><![CDATA[ 钝剃刀片(开刷) ]]></entry>
+
+    <entry id="huixuanbiao"><![CDATA[ 回旋镖(可惜不是附魔回旋镖) ]]></entry>
+
+    <entry id="muzhixibi"><![CDATA[ 木制镍币(出一个10块就回本) ]]></entry>
+
+    <entry id="xinshishoushudao"><![CDATA[ 心室手术刀(看我无伤进刺房) ]]></entry>
+
+    <entry id="shengjing"><![CDATA[ 圣经(请不要在撒旦面前使用) ]]></entry>
+
+    <entry id="guanjueyaodai"><![CDATA[ 冠军腰带(这道具对我没有任何负面) ]]></entry>
+
+    <entry id="haobiao"><![CDATA[ 好表(你已经出了11张牌了) ]]></entry>
+
+    <entry id="chao"><![CDATA[ 混沌(混门) ]]></entry>
+
+    <entry id="C_plan"><![CDATA[ C计划(妈的，和它爆了) ]]></entry>
+
+    <!--  <道具房效果触发台词>//  -->
+
+    <entry id="str_stress_heal_self_Chest_Visitor"><![CDATA[ 让我看看能找到了什么]]></entry>
+
+    <entry id="tugen"><![CDATA[ 吐根(让人又爱又恨) ]]></entry>
+
+    <entry id="kejiX"><![CDATA[ 科技X(论弹速加成为什么是负面效果) ]]></entry>
+
+    <entry id="taierboshi"><![CDATA[ 胎儿博士(爆，爆，爆) ]]></entry>
+
+    <entry id="shengbing"><![CDATA[ 圣饼(献祭，启动) ]]></entry>
+
+    <entry id="wanmeishili"><![CDATA[ 完美视力(人称小作孽双子) ]]></entry>
+
+    <entry id="xingyunjiao"><![CDATA[ 幸运脚(射速上升，移速上升，幸运上升) ]]></entry>
+
+    <!--  <饰品有关>//  -->
+
+    <entry id="buff_stat_tooltip_torch_increase_persent"><![CDATA[ 技能加光翻倍 ]]></entry>
+
+    <entry id="buff_stat_tooltip_torch_decrease_persent"><![CDATA[ 技能不在加光 ]]></entry>
+
+    <entry id="trinket_rarity_Isaac"><![CDATA[ 以撒的结合 ]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Fool"><![CDATA[塔罗牌-愚者]]></entry>
+
+    <entry id="str_inventory_set_title_Fool_Introduce"><![CDATA[旅程开始之地，这张塔罗牌象征着对未来的勇气和信心，即使面对巨大的危险，依然不顾一切地前行]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Magician"><![CDATA[塔罗牌-魔术师]]></entry>
+
+    <entry id="str_inventory_set_title_Magician_Introduce"><![CDATA[愿您弹无虚发，这张塔罗牌象征着一切的开始，即使面对新事物，依然有优秀的成功率]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_High_Priestess"><![CDATA[塔罗牌-女祭司]]></entry>
+
+    <entry id="str_inventory_set_title_High_Priestess_Introduce"><![CDATA[妈妈在注视你,这张塔罗牌象征着对世间万物非凡的洞察力和直觉]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Empress"><![CDATA[塔罗牌-皇后]]></entry>
+
+    <entry id="str_inventory_set_title_Empress_Introduce"><![CDATA[愿您怒中生力，这张塔罗牌象征着美丽、温柔和对世间万物的关心]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Emperor"><![CDATA[塔罗牌-皇帝]]></entry>
+
+    <entry id="str_inventory_set_title_Emperor_Introduce"><![CDATA[挑战我！,这张塔罗牌象征着权威与对规则的服从]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Hierophant"><![CDATA[塔罗牌-教皇]]></entry>
+
+    <entry id="str_inventory_set_title_Hierophant_Introduce"><![CDATA[为迷途者祷告两次,这张塔罗牌象征着信仰、信念]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Lovers"><![CDATA[塔罗牌-恋人]]></entry>
+
+    <entry id="str_inventory_set_title_Lovers_Introduce"><![CDATA[愿您健康繁盛,这张塔罗牌象征着爱情、人际关系]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Chariot"><![CDATA[塔罗牌-战车]]></entry>
+
+    <entry id="str_inventory_set_title_Chariot_Introduce"><![CDATA[愿您所向披靡，这张塔罗牌象征着胜利和克服障碍的决心]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Justice"><![CDATA[塔罗牌-正义]]></entry>
+
+    <entry id="str_inventory_set_title_Justice_Introduce"><![CDATA[愿您仕途平稳,这张塔罗牌象征着公正和绝对的平衡]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Hermit"><![CDATA[塔罗牌-隐者]]></entry>
+
+    <entry id="str_inventory_set_title_Hermit_Introduce"><![CDATA[愿您看破红尘,这张塔罗牌象征着孤独、内省和寻求真理]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Wheel_of_Fortune"><![CDATA[塔罗牌-命运之轮]]></entry>
+
+    <entry id="str_inventory_set_title_Wheel_of_Fortune_Introduce"><![CDATA[转动命运之轮,这张塔罗牌象征着命运的无常和不可预测]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Strength"><![CDATA[塔罗牌-力量]]></entry>
+
+    <entry id="str_inventory_set_title_Strength_Introduce"><![CDATA[愿您力中唤怒,这张塔罗牌象征着力量、勇气、耐力]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Hanged_Man"><![CDATA[塔罗牌-倒吊人]]></entry>
+
+    <entry id="str_inventory_set_title_Hanged_Man_Introduce"><![CDATA[我们在这都会飞起来,这张塔罗牌象征着牺牲奉献和耐心等待]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Death"><![CDATA[塔罗牌-死亡]]></entry>
+
+    <entry id="str_inventory_set_title_Death_Introduce"><![CDATA[毁灭忤逆尔者,这张塔罗牌象征着结束死亡和随着而来的新生]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Temperance"><![CDATA[塔罗牌-节制]]></entry>
+
+    <entry id="str_inventory_set_title_Temperance_Introduce"><![CDATA[愿您内心纯洁,这张塔罗牌象征着中庸、调和]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Devil"><![CDATA[塔罗牌-恶魔]]></entry>
+
+    <entry id="str_inventory_set_title_Devil_Introduce"><![CDATA[沉迷黑暗之力,这张塔罗牌象征着罪恶、诱惑]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Tower"><![CDATA[塔罗牌-塔]]></entry>
+
+    <entry id="str_inventory_set_title_Tower_Introduce"><![CDATA[毁灭带来创造,这张塔罗牌象征着突变、灾难]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Stars"><![CDATA[塔罗牌-星星]]></entry>
+
+    <entry id="str_inventory_set_title_Stars_Introduce"><![CDATA[愿你心想事成,这张塔罗牌象征着希望]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Moon"><![CDATA[塔罗牌-月亮]]></entry>
+
+    <entry id="str_inventory_set_title_Moon_Introduce"><![CDATA[愿你失而复得,这张塔罗牌象征着恐惧、迷惑不安]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Sun"><![CDATA[塔罗牌-太阳]]></entry>
+
+    <entry id="str_inventory_set_title_Sun_Introduce"><![CDATA[愿光赐你启示,这张塔罗牌象征着成功、喜悦]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Judgement"><![CDATA[塔罗牌-审判]]></entry>
+
+    <entry id="str_inventory_set_title_Judgement_Introduce"><![CDATA[为避审而审判,这张塔罗牌象征着重生、觉醒]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_World"><![CDATA[塔罗牌-世界]]></entry>
+
+    <entry id="str_inventory_set_title_World_Introduce"><![CDATA[睁眼洞察世界,这张塔罗牌象征着成功、胜利]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_the_Holy_Card"><![CDATA[神圣卡]]></entry>
+
+    <entry id="str_inventory_set_title_Holy_Card_Introduce"><![CDATA[你感到受保护,不要再呃啊了]]></entry>
+
+    <entry id="str_inventory_title_trinketIsaac_Missing_Poster"><![CDATA[寻人启事]]></entry>
+
+    <entry id="str_inventory_set_title_Missing_Poster_Introduce"><![CDATA[???]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Hermit_Tooltip"><![CDATA[使用友方技能获得商店访客怪癖]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Devil_Tooltip"><![CDATA[击杀目标获得恶魔房访客怪癖]]></entry>
+
+    <entry id="buff_stat_tooltip_upgrade_discount_Stars_Tooltip"><![CDATA[使用攻击技能获得宝箱房访客怪癖]]></entry>
+
+    <entry id="trinket_rarity_Friend"><![CDATA[ 朋友 ]]></entry>
+
+    <entry id="str_inventory_set_title_Friend_Until_End"><![CDATA[直到永远的朋友]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Isaac"><![CDATA[以撒]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Cain"><![CDATA[该隐]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Judas"><![CDATA[犹大]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Magdalene"><![CDATA[抹大拉]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Azazel"><![CDATA[AZ]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Eve"><![CDATA[夏娃]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Samson"><![CDATA[夏娃]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Lost"><![CDATA[游魂]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Lazarus"><![CDATA[拉萨路]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Eden"><![CDATA[伊甸]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Lilith"><![CDATA[莉莉丝]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Keeper"><![CDATA[店长]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Apollyon"><![CDATA[亚伯伦]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Forgotten"><![CDATA[遗骸]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Bethany"><![CDATA[伯大尼]]></entry>
+
+    <entry id="str_inventory_title_trinketFriend_Jacob_Esau"><![CDATA[雅阁和以扫]]></entry>
+
+    <!--  <杂项>//  -->
+
+    <entry id="buff_rule_data_tooltip_collector"><![CDATA[收藏家]]></entry>
+
+  </language>
+</root>
